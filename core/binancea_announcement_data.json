@@ -1,0 +1,1822 @@
+{
+   "routeProps":{
+      "b723":{
+         "catalogs":[
+            {
+               "catalogId":48,
+               "parentCatalogId":null,
+               "icon":"https://public.bnbstatic.com/image/cms/content/body/202202/9252ba30f961b1a20d49e622a0ecfad5.png",
+               "catalogName":"New Cryptocurrency Listing",
+               "description":null,
+               "catalogType":1,
+               "total":957,
+               "articles":[
+                  {
+                     "id":87073,
+                     "code":"e05c77a2e545452db8f3ec421f398b43",
+                     "title":"Binance Futures Will Launch Coin-Margined VET Perpetual Contracts with Up to 20X Leverage",
+                     "type":1,
+                     "releaseDate":1648525543810
+                  },
+                  {
+                     "id":86893,
+                     "code":"9c9267d5d7354fadb5fd8754a1f9526d",
+                     "title":"Binance Futures Will Launch Coin-Margined APE Perpetual Contracts with Up to 20X Leverage",
+                     "type":1,
+                     "releaseDate":1648180806437
+                  },
+                  {
+                     "id":86813,
+                     "code":"6300846efa0b4719a517b268118158ce",
+                     "title":"Binance Adds APE/BNB, GMT/BRL, GMT/ETH, JASMY/TRY \u0026 SANTOS/BUSD Trading Pairs",
+                     "type":1,
+                     "releaseDate":1648113330490
+                  },
+                  {
+                     "id":86433,
+                     "code":"b93ecf5a15cb4667bf43e6c08ccac8c9",
+                     "title":"Binance Futures Will Launch Coin-Margined RUNE Perpetual Contracts with Up to 20X Leverage",
+                     "type":1,
+                     "releaseDate":1647919845505
+                  },
+                  {
+                     "id":85800,
+                     "code":"8cdabd95618c4e8aab7f0b9c347d8c70",
+                     "title":"Binance Will List Biswap (BSW) in the Innovation Zone",
+                     "type":1,
+                     "releaseDate":1647855364219
+                  },
+                  {
+                     "id":86180,
+                     "code":"a050aa3c441342ffbd72bc30feebed5e",
+                     "title":"Binance Adds RUNE, GMT, APE on Cross Margin and GMT, APE on Isolated Margin",
+                     "type":1,
+                     "releaseDate":1647846007775
+                  },
+                  {
+                     "id":86144,
+                     "code":"ccd0c95685104110b28ae516c9aec5e4",
+                     "title":"Binance Futures Will List Coin-Margined Quarterly 0930 Futures Contracts",
+                     "type":1,
+                     "releaseDate":1647838867766
+                  },
+                  {
+                     "id":86128,
+                     "code":"d9b6d29b1444429d8da9a347fd5c2be5",
+                     "title":"Binance Futures Will List USDⓈ-M BTC \u0026 ETH Quarterly 0624 Futures Contracts",
+                     "type":1,
+                     "releaseDate":1647832210548
+                  },
+                  {
+                     "id":86101,
+                     "code":"fd002bea02c7425eb35e9b68bc680d11",
+                     "title":"Binance Adds APE/EUR, APE/GBP \u0026 APE/TRY Trading Pairs",
+                     "type":1,
+                     "releaseDate":1647606279035
+                  },
+                  {
+                     "id":85940,
+                     "code":"ff79727f73ff4bbba6ed68c09062f809",
+                     "title":"Binance Adds ALPINE/BUSD, LUNA/GBP, NEAR/EUR, TWT/TRY \u0026 WAVES/EUR Trading Pairs",
+                     "type":1,
+                     "releaseDate":1647509521054
+                  },
+                  {
+                     "id":85924,
+                     "code":"bb98f3f2625143fc9d5d98c3aae55b1a",
+                     "title":"Binance Futures Will Launch USDT-Margined APE Perpetual Contracts with Up to 25X Leverage",
+                     "type":1,
+                     "releaseDate":1647505204834
+                  },
+                  {
+                     "id":85903,
+                     "code":"089704e00ad1473dac72bf7bb9a5ce89",
+                     "title":"Binance Will List ApeCoin (APE)",
+                     "type":1,
+                     "releaseDate":1647500570924
+                  },
+                  {
+                     "id":84989,
+                     "code":"2955fe7b406a43f3bdc4cdd0b226734f",
+                     "title":"Binance Adds CVC, FRONT, QI, RAD, TWT on Cross Margin and BIDR, T on Isolated Margin",
+                     "type":1,
+                     "releaseDate":1647314142148
+                  },
+                  {
+                     "id":84885,
+                     "code":"b76223a20c604f718b1e124d1d049d0d",
+                     "title":"Binance Futures Will Launch USDT-Margined GMT Perpetual Contracts with Up to 25X Leverage",
+                     "type":1,
+                     "releaseDate":1647231005908
+                  },
+                  {
+                     "id":84807,
+                     "code":"c8ddc60746a64582875850b92d7e283c",
+                     "title":"Binance Futures Will Launch Coin-Margined ICX \u0026 ALGO Perpetual Contracts with Up to 20X Leverage",
+                     "type":1,
+                     "releaseDate":1646981244796
+                  },
+                  {
+                     "id":84707,
+                     "code":"05519b80be9a48e188840f74b774469a",
+                     "title":"Binance Will List Kadena (KDA)",
+                     "type":1,
+                     "releaseDate":1646975827515
+                  },
+                  {
+                     "id":84617,
+                     "code":"79ec510f934149ce99bd565ef3a2b705",
+                     "title":"Binance Adds ANC/BNB, ATOM/EUR, GALA/EUR, KSM/ETH \u0026 UMA/TRY Trading Pairs",
+                     "type":1,
+                     "releaseDate":1646898099647
+                  },
+                  {
+                     "id":84485,
+                     "code":"36b195f2288e467c9902f2fcb0f38544",
+                     "title":"Binance Completes the STEPN Subscription Launchpad and Will Open Trading for GMT",
+                     "type":1,
+                     "releaseDate":1646820132231
+                  },
+                  {
+                     "id":84403,
+                     "code":"de8a89ac404240ef9fb3629664740285",
+                     "title":"Subscription for the STEPN (GMT) Token Sale on Binance Launchpad Is Now Open",
+                     "type":1,
+                     "releaseDate":1646805604495
+                  },
+                  {
+                     "id":84192,
+                     "code":"8b6376b0ce804eb79017f35cb2eb9ac1",
+                     "title":"Binance Futures Will Launch USDT-Margined ANC Perpetual Contracts with Up to 25X Leverage",
+                     "type":1,
+                     "releaseDate":1646632541556
+                  }
+               ],
+               "catalogs":[
+                  
+               ]
+            },
+            {
+               "catalogId":49,
+               "parentCatalogId":null,
+               "icon":"https://public.bnbstatic.com/image/cms/content/body/202202/a8afccc1243e281a30ed4f78d553f9b6.png",
+               "catalogName":"Latest Binance News",
+               "description":null,
+               "catalogType":1,
+               "total":1976,
+               "articles":[
+                  {
+                     "id":87117,
+                     "code":"9a37042e074b4553806e8e0a70bbf780",
+                     "title":"Binance NFT Marketplace Launches Toni Kroos \"Iceman\" Mystery Box Collection",
+                     "type":1,
+                     "releaseDate":1648537603907
+                  },
+                  {
+                     "id":87095,
+                     "code":"19bee8f97846499ca731187e5fcaf0f9",
+                     "title":"Binance Liquid Swap Adds SUSHI \u0026 UNI, Opens Four New Liquidity Pools",
+                     "type":1,
+                     "releaseDate":1648533610058
+                  },
+                  {
+                     "id":87026,
+                     "code":"cc754c7fe24d49d083adc55480d09f76",
+                     "title":"APE \u0026 BSW Added to the Convert \u0026 OTC Portal, With 50 New Trading Pairs Supported",
+                     "type":1,
+                     "releaseDate":1648458016303
+                  },
+                  {
+                     "id":86976,
+                     "code":"aa00aba48425441683b23994ad25ee45",
+                     "title":"Binance Completes the Edgeware (EDG) Airdrop Distribution to Ethereum (ETH) Holders",
+                     "type":1,
+                     "releaseDate":1648202421156
+                  },
+                  {
+                     "id":86956,
+                     "code":"71477623984442d39aabe1c2ed4c466f",
+                     "title":"Binance Will Support the IRISnet (IRIS) Network Upgrade",
+                     "type":1,
+                     "releaseDate":1648198801789
+                  },
+                  {
+                     "id":86940,
+                     "code":"444fa6ec8ba4498db9d2be9dbc6921e9",
+                     "title":"Layer 1 Tokens Trade \u0026 Win Has Now Concluded",
+                     "type":1,
+                     "releaseDate":1648195204734
+                  },
+                  {
+                     "id":86909,
+                     "code":"e20c35781c3b4dd79dac3b8690dcc0c3",
+                     "title":"Binance Liquid Swap Adds APE, ATOM \u0026 GMT, Opens 6 New Liquidity Pools",
+                     "type":1,
+                     "releaseDate":1648191906564
+                  },
+                  {
+                     "id":86873,
+                     "code":"ed0bc6d40ad443308c443595c557dea7",
+                     "title":"Binance Launches Learn \u0026 Earn - Earn Free Crypto by Completing Courses \u0026 Quizzes!",
+                     "type":1,
+                     "releaseDate":1648177104180
+                  },
+                  {
+                     "id":86854,
+                     "code":"d26c688f03ec40a8a6d6f589e5fca132",
+                     "title":"Deposit AXS, BUSD, CAKE, DREP \u0026 USDT to Enjoy High Yield and Receive a VIP Upgrade Voucher!",
+                     "type":1,
+                     "releaseDate":1648119602825
+                  },
+                  {
+                     "id":86834,
+                     "code":"d14ebaed2c2d40d591ad377653009151",
+                     "title":"Binance Will Support the Anyswap (ANY) Token Migration and Renaming Plan",
+                     "type":1,
+                     "releaseDate":1648116012770
+                  },
+                  {
+                     "id":86794,
+                     "code":"5308e2fabf91475b80ce37b756652e58",
+                     "title":"Binance Code Launches Bulk Create Function to Facilitate Crypto Distribution and Trading",
+                     "type":1,
+                     "releaseDate":1648110603779
+                  },
+                  {
+                     "id":86727,
+                     "code":"ea77e200c79a405c8ddc8c43644491ab",
+                     "title":"Binance DeFi Staking Launches BUSD High-Yield Activity with Up to 13.33% APY",
+                     "type":1,
+                     "releaseDate":1648098004126
+                  },
+                  {
+                     "id":86683,
+                     "code":"b52d01f58c744844b3bce20e850fba5a",
+                     "title":"Earn Wednesday: High-Yield Offers Not to Miss Out! (2022-03-23)",
+                     "type":1,
+                     "releaseDate":1648030542850
+                  },
+                  {
+                     "id":86642,
+                     "code":"042ae9591e5f460e9535bb47e47a96d8",
+                     "title":"Binance NFT Launches “Santos FC Hat-Trick: Primeira” NFT Mystery Box Collection and NFT PowerStation with 10,000 SANTOS Fan Tokens to Be Shared!",
+                     "type":1,
+                     "releaseDate":1648026313163
+                  },
+                  {
+                     "id":86646,
+                     "code":"0968d59fd1334853bb0b56dff7de2e9c",
+                     "title":"Binance Will Support the IoTex (IOTX) Upgrade \u0026 Hard Fork",
+                     "type":1,
+                     "releaseDate":1648023004484
+                  },
+                  {
+                     "id":86597,
+                     "code":"340536a4895f474e946fa63af9f042fa",
+                     "title":"Claim Exclusive NFT Rewards During Binance Blockchain Week 2022!",
+                     "type":1,
+                     "releaseDate":1648018804424
+                  },
+                  {
+                     "id":86579,
+                     "code":"c5178999b1ea43b0b091686a0cdec190",
+                     "title":"Binance Loans Adds Borrowable Assets AVAX, FTM \u0026 SLP",
+                     "type":1,
+                     "releaseDate":1648015208753
+                  },
+                  {
+                     "id":86457,
+                     "code":"64862b1e6d824a4e8a298258869f9b3c",
+                     "title":"New Dual Investment Products Launched: Earn Up to 124% APY (2022-03-23)",
+                     "type":1,
+                     "releaseDate":1648001114301
+                  },
+                  {
+                     "id":86518,
+                     "code":"cd10c228972a40cdb17b9b7b57494f43",
+                     "title":"Binance P2P Offers a Fee Promotion in Southeast Asia: Get 50% Off Maker Fees",
+                     "type":1,
+                     "releaseDate":1647939608634
+                  },
+                  {
+                     "id":86458,
+                     "code":"dfabebf60e9f4a1d898cf2fe107fb39e",
+                     "title":"Binance Has Completed the Merger of Rari Governance Token (RGT) and Tribe (TRIBE)",
+                     "type":1,
+                     "releaseDate":1647928823325
+                  }
+               ],
+               "catalogs":[
+                  
+               ]
+            },
+            {
+               "catalogId":93,
+               "parentCatalogId":null,
+               "icon":"https://public.bnbstatic.com/image/cms/content/body/202202/d8638bc5588e7988ff51e2a891b9b60c.png",
+               "catalogName":"Latest Activities",
+               "description":null,
+               "catalogType":1,
+               "total":721,
+               "articles":[
+                  {
+                     "id":87048,
+                     "code":"a786e59b6cba43248fbd0978470655b5",
+                     "title":"Join the S.S. Lazio VIP Experience Sale - Up to 70% Discount with LAZIO Fan Token!",
+                     "type":1,
+                     "releaseDate":1648461876517
+                  },
+                  {
+                     "id":86913,
+                     "code":"464706886516442fac0267a21afcfaef",
+                     "title":"Binance Pool Officially Launches Ethereum Classic (ETC) Mining Pool: Join ETC Mining to Share $10,000 in BNB",
+                     "type":1,
+                     "releaseDate":1648188304132
+                  },
+                  {
+                     "id":86757,
+                     "code":"e16ef58eb2234ee98670facc9621d400",
+                     "title":"Auto-Invest Adding AXS: 100% Trading Fee Cashback \u0026 AXS Staking Whitelist Offer",
+                     "type":1,
+                     "releaseDate":1648105202232
+                  },
+                  {
+                     "id":86747,
+                     "code":"54680816fd084d7aa6560b906478720c",
+                     "title":"Share Gift Cards to Invite Your Friends to Binance - $150,000 Up for Grabs!",
+                     "type":1,
+                     "releaseDate":1648102506195
+                  },
+                  {
+                     "id":86512,
+                     "code":"557575fc181c45b5b607524aed00d1de",
+                     "title":"VIP Limited-Time Activity: VIP Upgrade Vouchers and 30,000 USDT Cashback Vouchers to Be Shared!",
+                     "type":1,
+                     "releaseDate":1647936038794
+                  },
+                  {
+                     "id":86067,
+                     "code":"d40a71953e634a9785fd769b566e6ed8",
+                     "title":"Dual Investment Giveaway - 50,000 BUSD to Be Shared! (2022-03-21)",
+                     "type":1,
+                     "releaseDate":1647852397106
+                  },
+                  {
+                     "id":86049,
+                     "code":"96ff546a9f2544148901549fe72b67c2",
+                     "title":"ALPINE Race to the Top - 300 BWT Alpine F1® Team: Slipstream into the Future Animated NFTs \u0026 More Than $100,000 in ALPINE Up for Grabs!",
+                     "type":1,
+                     "releaseDate":1647590410450
+                  },
+                  {
+                     "id":86029,
+                     "code":"71704f7cba0147beb5811a74636b34bb",
+                     "title":"Swap Farming Trading Promotion - Up to 40,000 WOO to Be Shared!",
+                     "type":1,
+                     "releaseDate":1647587107147
+                  },
+                  {
+                     "id":85894,
+                     "code":"d715d88bf89a4be9be9649cd0d57a5b0",
+                     "title":"Verify \u0026 Buy Crypto to Get 10 BUSD - Share Up to $100,000!",
+                     "type":1,
+                     "releaseDate":1647428411274
+                  },
+                  {
+                     "id":85841,
+                     "code":"49961046e5b2466896e68fb8f382bccb",
+                     "title":"WAVES Hybrid Trading Tournament with $200,000 Up for Grabs!",
+                     "type":1,
+                     "releaseDate":1647421505560
+                  },
+                  {
+                     "id":85823,
+                     "code":"b9bf9815bf594d60900703fa8fb0397e",
+                     "title":"From HODLers to EARNers: Trade on P2P to Earn 2X APY!",
+                     "type":1,
+                     "releaseDate":1647414538555
+                  },
+                  {
+                     "id":85750,
+                     "code":"1844f37691dd4a04ace52ba10e8e6610",
+                     "title":"Press a Button, Win a Bitcoin! #BitcoinButton",
+                     "type":1,
+                     "releaseDate":1647345613383
+                  },
+                  {
+                     "id":84959,
+                     "code":"59e7be526a5a40ea8e8f01c2140edc16",
+                     "title":"#BitcoinButton Milestone Giveaway - Win a Share of $1,250 Worth of BTC!",
+                     "type":1,
+                     "releaseDate":1647256052221
+                  },
+                  {
+                     "id":83286,
+                     "code":"c445d5b3b462431fbd1aa951cd5966b4",
+                     "title":"Share Your #BitcoinButton Results on Twitter - $10,000 in BTC to Be Shared!",
+                     "type":1,
+                     "releaseDate":1647255780258
+                  },
+                  {
+                     "id":84939,
+                     "code":"bc239791e715403998138ffd764559cb",
+                     "title":"Shop and Earn with Binance Pay: 1,000,000 BUSD to Be Shared",
+                     "type":1,
+                     "releaseDate":1647251455676
+                  },
+                  {
+                     "id":84823,
+                     "code":"27b43c15b69d4b3c9e403d432ca2c026",
+                     "title":"JASMY Trading Tournament - $100,000 in JASMY and NFTs to Be Shared!",
+                     "type":1,
+                     "releaseDate":1646982654448
+                  },
+                  {
+                     "id":84683,
+                     "code":"2049e4a837e9428b879365d625dfa67e",
+                     "title":"Dual Investment Giveaway - 30,000 BUSD to Be Shared! (2022-03-10)",
+                     "type":1,
+                     "releaseDate":1646906404661
+                  },
+                  {
+                     "id":84600,
+                     "code":"f8472c5b216e4128b6da34f0ae4e83f8",
+                     "title":"Trade Layer 1 Tokens and Collect the Icon Cards on Binance Futures to Share Up to 188,888 BUSD",
+                     "type":1,
+                     "releaseDate":1646892202583
+                  },
+                  {
+                     "id":84559,
+                     "code":"1d2cd8a3dc254a00862051aa3f29df66",
+                     "title":"Register, Complete KYC, and Share Rewards of $45,000 in STEPN (GMT) !",
+                     "type":1,
+                     "releaseDate":1646877638724
+                  },
+                  {
+                     "id":84424,
+                     "code":"bff98c51705d4078b77d986e0bcc2e56",
+                     "title":"Learn \u0026 Earn STEPN (GMT) - $75,000 Rewards Up for Grabs!",
+                     "type":1,
+                     "releaseDate":1646809208366
+                  }
+               ],
+               "catalogs":[
+                  
+               ]
+            },
+            {
+               "catalogId":50,
+               "parentCatalogId":null,
+               "icon":"https://public.bnbstatic.com/image/cms/content/body/202202/dec23f1bd9b31b92cb53f8d3291e71d4.png",
+               "catalogName":"New Fiat Listings",
+               "description":null,
+               "catalogType":1,
+               "total":181,
+               "articles":[
+                  {
+                     "id":86712,
+                     "code":"9eba8b215ae1453c8bc484e0ace29ea3",
+                     "title":"Buy APE, ATM, MBL, TROY \u0026 More Directly Using Your Credit/Debit Card",
+                     "type":1,
+                     "releaseDate":1648094452034
+                  },
+                  {
+                     "id":85973,
+                     "code":"bc3170925e6f4b529cfb12bd7457d6a8",
+                     "title":"Buy BAR, BTCST, JUV, T \u0026 More Directly Using Your Credit/Debit Card, and AMP \u0026 KEY on Recurring Buy",
+                     "type":1,
+                     "releaseDate":1647576006451
+                  },
+                  {
+                     "id":83989,
+                     "code":"1766839e8ac74f028b478dcc6c4c7556",
+                     "title":"Buy EPS, ONG \u0026 More Directly Using Your Credit/Debit Card, and ACA, ALPINE, WOO \u0026 More on Recurring Buy",
+                     "type":1,
+                     "releaseDate":1646272815816
+                  },
+                  {
+                     "id":83467,
+                     "code":"ce3cca913f7445868a33cd0391dba34e",
+                     "title":"Buy ALPINE, ACA, WOO \u0026 More Directly Using Your Credit/Debit Card",
+                     "type":1,
+                     "releaseDate":1645599319456
+                  },
+                  {
+                     "id":83013,
+                     "code":"517da375619f4374a329a291974e52f3",
+                     "title":"Buy API3, LOKA, RARE \u0026 More Directly Using Your Credit/Debit Card, and BTTC \u0026 FIDA on Recurring Buy",
+                     "type":1,
+                     "releaseDate":1645085947299
+                  },
+                  {
+                     "id":82204,
+                     "code":"c16ad799ca2d45deb0cb2f374cc1c255",
+                     "title":"Buy CLV, CREAM, HIGH \u0026 More Directly Using Your Credit/Debit Card",
+                     "type":1,
+                     "releaseDate":1644486939734
+                  },
+                  {
+                     "id":81323,
+                     "code":"05aadddb652042cf9f2d1b95e1d8668c",
+                     "title":"Buy BETA, OCEAN, POND, SCRT \u0026 More Directly Using Your Credit/Debit Card, and COS \u0026 More on Recurring Buy",
+                     "type":1,
+                     "releaseDate":1643274024387
+                  },
+                  {
+                     "id":80634,
+                     "code":"3ea38e58b8f5468081fafe438c03e527",
+                     "title":"Buy COS, USDC \u0026 More Directly Using Your Credit/Debit Card",
+                     "type":1,
+                     "releaseDate":1642678375256
+                  },
+                  {
+                     "id":79775,
+                     "code":"18fb0f38881546a487861f390218ec7c",
+                     "title":"Buy CELR, ENS, FLUX, FTT, KP3R \u0026 POWR Directly Using Your Credit/Debit Card, and DUSK, FARM, JOE, MDT, OOKI \u0026 VOXEL on Recurring Buy",
+                     "type":1,
+                     "releaseDate":1642064176454
+                  },
+                  {
+                     "id":79120,
+                     "code":"94b1edabb30b4f8e973d7183f5988a80",
+                     "title":"Buy DUSK, FARM, JOE, MDT, OOKI \u0026 VOXEL Directly Using Your Credit/Debit Card",
+                     "type":1,
+                     "releaseDate":1641463113539
+                  },
+                  {
+                     "id":78635,
+                     "code":"4350fc5dee944b0daa1baa4632caa4cd",
+                     "title":"Buy PEOPLE, SPELL \u0026 More Tokens Directly Using Your Credit/Debit Card, and EGLD \u0026 ROSE on Recurring Buy",
+                     "type":1,
+                     "releaseDate":1640850668356
+                  },
+                  {
+                     "id":77414,
+                     "code":"3be4e992bff147259f83822e287089ca",
+                     "title":"Buy CITY, SUSHI \u0026 More Tokens Directly Using Your Credit/Debit Card, and AKRO on Recurring Buy",
+                     "type":1,
+                     "releaseDate":1639725951182
+                  },
+                  {
+                     "id":76863,
+                     "code":"bb243abacde540468385a3db96cef076",
+                     "title":"Buy COCOS and 27 Other Newly Added Tokens Directly Using Your Credit/Debit Card",
+                     "type":1,
+                     "releaseDate":1639126107012
+                  },
+                  {
+                     "id":74259,
+                     "code":"cd836704d4e642d4a0fc732d3413335a",
+                     "title":"Buy PORTO \u0026 GameFi Tokens Directly Using Your Credit/Debit Card, and LAZIO \u0026 AVAX on Recurring Buy",
+                     "type":1,
+                     "releaseDate":1637328421081
+                  },
+                  {
+                     "id":71955,
+                     "code":"871313ac79894383a0e102bbb9b3185d",
+                     "title":"Binance P2P Adds NIO, HNL \u0026 GTQ",
+                     "type":1,
+                     "releaseDate":1635429294092
+                  },
+                  {
+                     "id":66383,
+                     "code":"cc85f83ab7d2459ab20d67dcb88ce9ce",
+                     "title":"Binance Adds ARPA/TRY, XRP/BIDR, SUSHI/BIDR, SOL/AUD, C98/BRL, XEC/USDT, OGN/BUSD, MTL/BUSD \u0026 PROM/BTC Trading Pairs",
+                     "type":1,
+                     "releaseDate":1630643942861
+                  },
+                  {
+                     "id":63449,
+                     "code":"2b940ba95e7d40b2b17f70ca2545b427",
+                     "title":"Binance Adds AXS/AUD, AXS/BRL \u0026 TVK/USDT Trading Pairs",
+                     "type":1,
+                     "releaseDate":1628132427531
+                  },
+                  {
+                     "id":60039,
+                     "code":"d2ce74e88da7485a8f31b370d9ca3ba8",
+                     "title":"Binance Adds BUSD/UAH, RUNE/AUD \u0026 SOL/RUB Trading Pairs",
+                     "type":1,
+                     "releaseDate":1625208699180
+                  },
+                  {
+                     "id":56688,
+                     "code":"3701e8fb27a64b7099f1d0fffd2192f5",
+                     "title":"Binance Adds ICP/EUR, MATIC/BIDR, MATIC/GBP, MATIC/RUB \u0026 SHIB/TRY Trading Pairs",
+                     "type":1,
+                     "releaseDate":1622720593923
+                  },
+                  {
+                     "id":55947,
+                     "code":"c77a287e1695449fb31031e9321d7df6",
+                     "title":"Binance Adds ETH/UAH, MATIC/BRL, SHIB/BRL \u0026 SOL/EUR Trading Pairs",
+                     "type":1,
+                     "releaseDate":1622104468736
+                  }
+               ],
+               "catalogs":[
+                  
+               ]
+            },
+            {
+               "catalogId":161,
+               "parentCatalogId":null,
+               "icon":"https://public.bnbstatic.com/image/cms/content/body/202202/ad416a7598c8327ee59a6052c001c9b9.png",
+               "catalogName":"Delisting",
+               "description":null,
+               "catalogType":1,
+               "total":7,
+               "articles":[
+                  {
+                     "id":86774,
+                     "code":"a32282b26bdf499e93a29c83b8bc83ab",
+                     "title":"Notice of Removal of Trading Pairs - 2022-04-01",
+                     "type":1,
+                     "releaseDate":1648107904072
+                  },
+                  {
+                     "id":84711,
+                     "code":"3c83d5627b494c5db5c0c23f572f0503",
+                     "title":"Notice of Removal of Trading Pairs - 2022-03-18",
+                     "type":1,
+                     "releaseDate":1646963927030
+                  },
+                  {
+                     "id":84317,
+                     "code":"105793a7dd7b4b3dae049f1e670f3c25",
+                     "title":"Notice of Removal of Trading Pairs - 2022-03-10",
+                     "type":1,
+                     "releaseDate":1646705386426
+                  },
+                  {
+                     "id":83779,
+                     "code":"92eea3f48aa04210a454511151f3d362",
+                     "title":"Binance Will Delist BCD, CND, MTH, NCASH and YOYO on 2022-03-08",
+                     "type":1,
+                     "releaseDate":1646107170632
+                  },
+                  {
+                     "id":83759,
+                     "code":"034252c30f554df284984982d65742ba",
+                     "title":"Notice of Removal of Trading Pairs - 2022-03-03",
+                     "type":1,
+                     "releaseDate":1646103749930
+                  },
+                  {
+                     "id":83347,
+                     "code":"f7af728484fc4e8b82cdecf017d8b18a",
+                     "title":"Notice of Removal of AXS/BIDR Trading Pair - 2022-02-25",
+                     "type":1,
+                     "releaseDate":1645495079687
+                  },
+                  {
+                     "id":82912,
+                     "code":"b5c4d0de8f7c49ffbbf32c344a368a37",
+                     "title":"Notice of Removal of Trading Pairs - 2022-02-24",
+                     "type":1,
+                     "releaseDate":1645069676026
+                  }
+               ],
+               "catalogs":[
+                  
+               ]
+            },
+            {
+               "catalogId":157,
+               "parentCatalogId":null,
+               "icon":"https://public.bnbstatic.com/image/cms/content/body/202202/ed1038f4a8210303d38e5fb8d75119d5.png",
+               "catalogName":"Wallet Maintenance Updates",
+               "description":null,
+               "catalogType":1,
+               "total":2,
+               "articles":[
+                  {
+                     "id":83327,
+                     "code":"f4fe283e145e4e3197a8cb60a2125c5c",
+                     "title":"Wallet Maintenance for Cardano Network (ADA)",
+                     "type":1,
+                     "releaseDate":1645442967429
+                  },
+                  {
+                     "id":82682,
+                     "code":"9ed728fdd5bf4fd2b68b6348ec264504",
+                     "title":"Wallet Maintenance for Ethereum Network (ERC20) - 2022-02-16",
+                     "type":1,
+                     "releaseDate":1644922528718
+                  }
+               ],
+               "catalogs":[
+                  
+               ]
+            },
+            {
+               "catalogId":51,
+               "parentCatalogId":null,
+               "icon":"https://public.bnbstatic.com/image/cms/content/body/202202/8ac68f17b7ce1d3862bf7520ed2a592f.png",
+               "catalogName":"API Updates",
+               "description":null,
+               "catalogType":1,
+               "total":33,
+               "articles":[
+                  {
+                     "id":72615,
+                     "code":"07993af2759c445899ca64e2428fcb3a",
+                     "title":"Updates on SAPI Rules (2021-11-04)",
+                     "type":1,
+                     "releaseDate":1636005211799
+                  },
+                  {
+                     "id":71820,
+                     "code":"ead60fd4395c4d69a124e786fed2c50b",
+                     "title":"Updates on SAPI Transfer Types (2021-10-27)",
+                     "type":1,
+                     "releaseDate":1635327982955
+                  },
+                  {
+                     "id":68745,
+                     "code":"d610cbed2a55407a98e427af95ccf69d",
+                     "title":"Updates to the Time Range of Data Retrieval via Binance Margin SAPI",
+                     "type":1,
+                     "releaseDate":1632472201056
+                  },
+                  {
+                     "id":63570,
+                     "code":"654c092a2a2347bdb5ccd6faa0c6c039",
+                     "title":"Updates to API Services",
+                     "type":1,
+                     "releaseDate":1628222424524
+                  },
+                  {
+                     "id":53664,
+                     "code":"3da69b7a633a447484830849b765c6ab",
+                     "title":"Updates to Binance Margin SAPI Create Margin Account",
+                     "type":1,
+                     "releaseDate":1619587049298
+                  },
+                  {
+                     "id":53228,
+                     "code":"f3d75a44fc7b4610b080b9c3499ed075",
+                     "title":"Notice on Adjusting the Request Weight of Rest API Endpoints",
+                     "type":1,
+                     "releaseDate":1619424336969
+                  },
+                  {
+                     "id":53041,
+                     "code":"bcc9e902421a46398771c5f15f550685",
+                     "title":"Binance Futures API Websocket User Data Stream Upgrade (2021-04-23)",
+                     "type":1,
+                     "releaseDate":1619185509461
+                  },
+                  {
+                     "id":52046,
+                     "code":"f45dde7da58b473aa885349946bed269",
+                     "title":"Notice to API Users on Delisting WAPI Endpoints",
+                     "type":1,
+                     "releaseDate":1618299587094
+                  },
+                  {
+                     "id":50707,
+                     "code":"2c07f0198c0d4833835d329263194198",
+                     "title":"Updates to the Sub-Account Transfer History Query in Binance SAPI ",
+                     "type":1,
+                     "releaseDate":1617179700692
+                  },
+                  {
+                     "id":44791,
+                     "code":"fab53eade2db425f8d967afd5aa34e72",
+                     "title":"API Functionality Now Enabled for Binance Vanilla Options",
+                     "type":1,
+                     "releaseDate":1611734622828
+                  },
+                  {
+                     "id":34223,
+                     "code":"087519dd117e4a7593dd318631471a74",
+                     "title":"Update to the Binance USDT-Margined Futures Contract API",
+                     "type":1,
+                     "releaseDate":1603269693601
+                  },
+                  {
+                     "id":32762,
+                     "code":"88c27aa33b8e443c81d94c7f56639c06",
+                     "title":"Updates to the Binance Savings API",
+                     "type":1,
+                     "releaseDate":1601270127971
+                  },
+                  {
+                     "id":32513,
+                     "code":"e3ebd4e635c74ba687bc15031b02aeb2",
+                     "title":"API Functionality Now Enabled for Binance Liquid Swap",
+                     "type":1,
+                     "releaseDate":1600839548341
+                  },
+                  {
+                     "id":31643,
+                     "code":"8154893b1be34870aee9253828642290",
+                     "title":"Updates to Scheduled Changes for the User Data Stream Websocket",
+                     "type":1,
+                     "releaseDate":1599645444797
+                  },
+                  {
+                     "id":31380,
+                     "code":"c386a9ce44e74e15a796f56289a763d6",
+                     "title":"Updates to the User Data Stream Websocket Payloads",
+                     "type":1,
+                     "releaseDate":1599241882693
+                  },
+                  {
+                     "id":29339,
+                     "code":"d9ed17745f3d4da0ba3cf2e8a6ab07ec",
+                     "title":"API Functionality Now Enabled for Binance Isolated Margin Trading",
+                     "type":1,
+                     "releaseDate":1596015756675
+                  },
+                  {
+                     "id":27483,
+                     "code":"360044100832",
+                     "title":"New Binance Futures API Endpoint With 10x Performance ",
+                     "type":1,
+                     "releaseDate":1591354570000
+                  },
+                  {
+                     "id":27364,
+                     "code":"360044407271",
+                     "title":"Notice Regarding Updates to the Binance Futures API",
+                     "type":1,
+                     "releaseDate":1591111812000
+                  },
+                  {
+                     "id":19302,
+                     "code":"360043210712",
+                     "title":"Updates to the Binance Futures API",
+                     "type":1,
+                     "releaseDate":1589543772000
+                  },
+                  {
+                     "id":19506,
+                     "code":"360039313552",
+                     "title":"Binance Futures Releases API Java SDK",
+                     "type":1,
+                     "releaseDate":1581490298000
+                  }
+               ],
+               "catalogs":[
+                  
+               ]
+            },
+            {
+               "catalogId":128,
+               "parentCatalogId":null,
+               "icon":"https://public.bnbstatic.com/image/cms/content/body/202202/b2b09493188d2f457c86ab97798ce790.png",
+               "catalogName":"Crypto Airdrop",
+               "description":null,
+               "catalogType":1,
+               "total":26,
+               "articles":[
+                  {
+                     "id":86009,
+                     "code":"46bb1871c9c04df08a41e0b52a994a16",
+                     "title":"Binance Completes the Ninth Round of APENFT (NFT) Airdrop Distribution to TRON (TRX), BitTorrent OLD (BTTOLD), BitTorrent (BTTC), JUST (JST), and WINkLink (WIN) Holders",
+                     "type":1,
+                     "releaseDate":1647583306781
+                  },
+                  {
+                     "id":82587,
+                     "code":"edfe4dfacbe842c4b2848d5e819b4d54",
+                     "title":"Binance Completes the Sixth Round of BEL Airdrop Distribution",
+                     "type":1,
+                     "releaseDate":1644898648467
+                  },
+                  {
+                     "id":82374,
+                     "code":"82811450f42d400cac1eea26241d86e3",
+                     "title":"Binance Completes the Eighth Round of APENFT (NFT) Airdrop Distribution to TRON (TRX), BitTorrent (BTT), JUST (JST), and WINkLink (WIN) Holders",
+                     "type":1,
+                     "releaseDate":1644823633314
+                  },
+                  {
+                     "id":80021,
+                     "code":"c36f27247325488c8cff3dd682a781f0",
+                     "title":"Binance Completes the Seventh Round of APENFT (NFT) Airdrop Distribution to TRON (TRX), BitTorrent (BTT), JUST (JST), and WINkLink (WIN) Holders",
+                     "type":1,
+                     "releaseDate":1642389526814
+                  },
+                  {
+                     "id":77811,
+                     "code":"4132bfe935cc4930b1a7c2e829492f36",
+                     "title":"Binance Will Support the Pundi X PURSE (PURSE) Airdrop Program for Pundi X (PUNDIX) Holders",
+                     "type":1,
+                     "releaseDate":1640081462012
+                  },
+                  {
+                     "id":77789,
+                     "code":"eec786aca16c494e88d7f7471bcdc7a8",
+                     "title":"Binance Completes the Songbird (SGB) Airdrop Distribution to XRP (XRP) Holders",
+                     "type":1,
+                     "releaseDate":1640074300689
+                  },
+                  {
+                     "id":77769,
+                     "code":"45605c2192e14056b4eea9fc2fbb7282",
+                     "title":"Binance Will Support the Sologenic (SOLO) Airdrop Program for XRP (XRP) Holders",
+                     "type":1,
+                     "releaseDate":1640063924751
+                  },
+                  {
+                     "id":71856,
+                     "code":"4acc20ea6da14660a61f84b862afc1ed",
+                     "title":"Binance Will Support the Songbird (SGB) Airdrop Program for XRP (XRP) Holders",
+                     "type":1,
+                     "releaseDate":1635396923219
+                  },
+                  {
+                     "id":71689,
+                     "code":"fff035997a684c67a72f661f4ffb82d0",
+                     "title":"Important Updates to the APENFT (NFT) Airdrop Program",
+                     "type":1,
+                     "releaseDate":1635153432232
+                  },
+                  {
+                     "id":71655,
+                     "code":"ccb567574cb14c528b3e5e8e69752c6a",
+                     "title":"Binance Will Support the Boba Token (BOBA) Airdrop Program for OMG Network (OMG) Holders",
+                     "type":1,
+                     "releaseDate":1635147446214
+                  },
+                  {
+                     "id":70065,
+                     "code":"eaa19c63a4de4e8fa324d43ed45d7e87",
+                     "title":"Binance Completes the Fourth Round of APENFT (NFT) Airdrop Distribution  to TRON (TRX), BitTorrent (BTT), and JUST (JST) Holders",
+                     "type":1,
+                     "releaseDate":1634093619544
+                  },
+                  {
+                     "id":68693,
+                     "code":"6ad1a1abb8104b9fa8400a30bed73525",
+                     "title":"Binance Will Support the Second Round of Donnie Finance (DON) Airdrop Program for IOST (IOST) Holders",
+                     "type":1,
+                     "releaseDate":1632459761351
+                  },
+                  {
+                     "id":57222,
+                     "code":"ba650472785243d0b997fe5aae4f5d4f",
+                     "title":"Binance Will Support the APENFT (NFT) Airdrop Program for TRON (TRX), BitTorrent (BTT) and JUST (JST) Holders",
+                     "type":1,
+                     "releaseDate":1623156739892
+                  },
+                  {
+                     "id":56025,
+                     "code":"df6c93454e9f4b48b3d0ed8d29c98969",
+                     "title":"Venus Reward Token (VRT) Distribution Is Now Complete",
+                     "type":1,
+                     "releaseDate":1622172448632
+                  },
+                  {
+                     "id":55053,
+                     "code":"7e9d5fa946fd4a889deb45c63a76e304",
+                     "title":"Binance Will Support the Venus Reward Token (VRT) Airdrop Program for Venus (XVS) Holders",
+                     "type":1,
+                     "releaseDate":1620995661454
+                  },
+                  {
+                     "id":51683,
+                     "code":"61c5a8c3063143e89727f0343c2cf80b",
+                     "title":"Binance Will Support the Mettalex (MTLX) Airdrop Program for Fetch.ai (FET) Holders",
+                     "type":1,
+                     "releaseDate":1617966322381
+                  },
+                  {
+                     "id":49496,
+                     "code":"329acb863f8749f98de6d82dbfb7ed6d",
+                     "title":"Snapshot Taken for Symbol (XYM) Airdrop Program for NEM (XEM) Holders",
+                     "type":1,
+                     "releaseDate":1615653774187
+                  },
+                  {
+                     "id":48726,
+                     "code":"2a332c43213441568920157a700ed266",
+                     "title":"Snapshot Schedule Update to the Symbol (XYM) Airdrop Program for NEM (XEM) Holders",
+                     "type":1,
+                     "releaseDate":1614860172860
+                  },
+                  {
+                     "id":46476,
+                     "code":"1c5f143554b0479ea0d349122b175b81",
+                     "title":"Binance Will Support the Donnie Finance (DON) Airdrop Program for IOST (IOST) Holders",
+                     "type":1,
+                     "releaseDate":1614152559682
+                  },
+                  {
+                     "id":46254,
+                     "code":"a976b8105e0c48179b29c1757f9a623f",
+                     "title":"Binance Will Support the SelfKey (KEY) \u0026 KeyFi (KEYFI) Airdrop Program for SelfKey (KEY) Holders",
+                     "type":1,
+                     "releaseDate":1613801470361
+                  }
+               ],
+               "catalogs":[
+                  
+               ]
+            }
+         ]
+      }
+   },
+   "dynamicIds":[
+      "RCSn",
+      "UWeV",
+      "O94r",
+      "skv5",
+      "trkH",
+      "6jKC",
+      "sWZW",
+      "RrQo"
+   ],
+   "appProps":{
+      "locale":"en",
+      "configs":{
+         "headerProps":{
+            
+         },
+         "footerProps":{
+            
+         },
+         "origin":"https://www.binance.com",
+         "lang":{
+            "Channel Advcash2":"SEPA, Advcash, Payeer, Epay",
+            "Channel Advcash4":"Epay",
+            "VIP_0":"Regular User",
+            "action-registerNow":"Register free",
+            "action-trade":"Trade",
+            "action-tradeNow":"trade now",
+            "ba-0fee":"0 Fees - 3 Days Only!",
+            "ba-5tournament":"Tournament",
+            "ba-APIDocumentation":"API Documentation",
+            "ba-APIDocuments":"API Documentation",
+            "ba-APIManagement":"API Management",
+            "ba-AUD":"Buy Crypto with your AUD balance",
+            "ba-About":"About",
+            "ba-Academy":"Academy",
+            "ba-AccountStatement":"Account Statement",
+            "ba-Activity":"Activity",
+            "ba-Advanced":"Advanced",
+            "ba-Affiliate":"Affiliate",
+            "ba-Announcement":"Announcements",
+            "ba-BCF":"BCF",
+            "ba-BCFcontnet":"Powering blockchain for good",
+            "ba-BNBVault ":"BNB Vault",
+            "ba-BNBVault-content  ":"Earn Multi-benefits with BNB",
+            "ba-BNBVault-title":"BNB Vault",
+            "ba-BNBVaulttitle-content":"Earn Multi-benefits with BNB",
+            "ba-BRL":"Buy Crypto with your BRL balance",
+            "ba-BUSDBonus":"BUSD Bonus",
+            "ba-BUSDPerpetual":"BUSD Perpetual",
+            "ba-BankDeposit4bill":"Deposit UAH with VISA / MasterCard",
+            "ba-BankDepositAUD":"Deposit AUD with PayID",
+            "ba-BankDepositFasterPayment":"Deposit GBP with Faster Payment",
+            "ba-BankDepositFasterPayment0":"0 fee via Faster Payments deposit",
+            "ba-BankDepositSEPA":"0 fee via SEPA deposit",
+            "ba-BankDepositSEPAiDEAL":"Deposit EUR with SEPA, iDEAL",
+            "ba-BankDepositTransfer":"Bank Transfer",
+            "ba-BankDepositTransfer2":"Bank Transfer",
+            "ba-BankDepositTransferduitku":"Deposit IDR with Permata/Maybank/CIMB Niaga",
+            "ba-BankDepositUGX":"Deposit UGX with Flutterwave",
+            "ba-BankTransferSubtitle":"Bank transfer and 100+ options",
+            "ba-BankTransferSubtitle2":"Buy/Sell from Local Verified Vendors",
+            "ba-BankTransferSubtitle3":"Buy/Sell from Local Verified Vendors",
+            "ba-BanktransferTitle":"P2P Trading",
+            "ba-Basic":"Classic",
+            "ba-Basic-content":"Simple and easy-to-use interface",
+            "ba-BasicCONVERT":"Convert",
+            "ba-BasicCONVERT-content":"The easiest way to trade",
+            "ba-Binance Pay":"Binance Pay",
+            "ba-Binance Pay-content":"Send and spend crypto at zero fees",
+            "ba-BuyTradable":"Buy Tradable Altcoins",
+            "ba-CAD":"Buy Crypto with your CAD balance",
+            "ba-CHF":"Buy Crypto with your CHF balance",
+            "ba-COIN-MDelivery":"COIN-M Delivery",
+            "ba-COIN-MPerpetual":"COIN-M Perpetual",
+            "ba-COINM":"COIN-M",
+            "ba-CZK":"Buy Crypto with your CZK balance",
+            "ba-Card":"Card",
+            "ba-Career":"Careers",
+            "ba-CashBalanceSubtitleA":"Pay by your",
+            "ba-CashBalanceSubtitleB":"balance",
+            "ba-CashBalanceTitle":"Cash Balance",
+            "ba-Charity":"Charity",
+            "ba-Cloud":"Cloud",
+            "ba-Community":"Community",
+            "ba-ContactUs":"Business Contacts",
+            "ba-CrediCardSubtitle":"Visa, Mastercard",
+            "ba-CrediCardSubtitle2":"Visa",
+            "ba-CrediCardSubtitleNGN":"Visa, Mastercard, Verve",
+            "ba-CreditCardTitle":"Credit/Debit Card",
+            "ba-CryptoLoans":"Crypto Loans",
+            "ba-Currency":"Currency",
+            "ba-DEX":"DEX",
+            "ba-DKK":"Buy Crypto with your DKK balance",
+            "ba-DebitCard":"Binance Visa Card",
+            "ba-DebitCard-content":"Convert and pay with crypto worldwide",
+            "ba-DeliveryOrder":"COIN-M Futures Order",
+            "ba-DeliveryWallet":"COIN-M Futures",
+            "ba-Deposit-EUR":"Deposit EUR via card",
+            "ba-Deposit-GBP":"Deposit GBP via card",
+            "ba-Deposit-HKD":"Deposit HKD via card",
+            "ba-Deposit-PEN":"Deposit PEN via card",
+            "ba-Deposit-RUB":"Deposit RUB via card",
+            "ba-Deposit-UAH":"Deposit UAH via card",
+            "ba-DepositSubtitle1":"Bank Transfer, Card payment",
+            "ba-DepositSubtitle2":"SEPA, Advcash, Payeer, Epay",
+            "ba-DepositSubtitle3":"Advcash",
+            "ba-DepositSubtitle4":"Advcash, Payeer",
+            "ba-DepositSubtitle5":"Papara, Advcash",
+            "ba-DepositSubtitle6":"Advcash",
+            "ba-DepositSubtitle7":"Epay",
+            "ba-DepositSubtitle8":"Faster Payment, Epay",
+            "ba-DepositSubtitle9":"Bank Transfer",
+            "ba-Desktop Application":"Desktop Application",
+            "ba-Download":"Downloads",
+            "ba-Dual":"Dual Investment",
+            "ba-Dual-content    ":"Commit your crypto holdings and enjoy high returns",
+            "ba-Dualtitle-content":"Commit your crypto holdings and enjoy high returns",
+            "ba-EUR":"Buy Crypto with your EUR balance",
+            "ba-EUR-SEPA-card":"Deposit EUR via SEPA or card",
+            "ba-Earn":"Earn",
+            "ba-Earndeatil":"One-stop Investment Solution",
+            "ba-Earntitle":"Binance Earn",
+            "ba-Exchange":"Exchange",
+            "ba-FAQ":"FAQ",
+            "ba-FanToken\t":"Fan Token",
+            "ba-FanToken":"Fan Token",
+            "ba-FanToken-content":"Upgrade your fan experience",
+            "ba-Fantoken":"Fan Token",
+            "ba-Featured.market":"Featured.market",
+            "ba-Fees":"Fees",
+            "ba-FundingWallet":"Funding Wallet",
+            "ba-Futures-Service-Agreement":"Futures Service Agreement",
+            "ba-GBD":"Buy Crypto with your GBP balance",
+            "ba-GBP-FPS-card":"Deposit GBP via Faster Payments or card",
+            "ba-GBP-deposit":"Bank Deposit",
+            "ba-GHS":"Buy Crypto with your GHS balance",
+            "ba-Getaninstantloan":"Get an instant loan secured by crypto assets",
+            "ba-GiftCard":"Gift Card",
+            "ba-GiftCard-content":"Customizable crypto gift card",
+            "ba-GridTrading":"Futures Grid",
+            "ba-HKD":"Buy Crypto with your HKD balance",
+            "ba-HUF":"Buy Crypto with your HUF balance",
+            "ba-Info":"Cryptocurrency information platform",
+            "ba-KES":"Buy Crypto with your KES balance",
+            "ba-KZT":"Buy Crypto with your KZT balance",
+            "ba-Labs":"Labs",
+            "ba-Launchpad":"Launchpad",
+            "ba-Learn":"Learn",
+            "ba-ListingApplication":"Listing Application",
+            "ba-LogIn":"Log In",
+            "ba-MXN":"Buy Crypto with your MXN balance",
+            "ba-NFT":"NFT",
+            "ba-NGN":"Buy Crypto with your NGN balance",
+            "ba-NOK":"Buy Crypto with your NOK balance",
+            "ba-NZD":"Buy Crypto with your NZD balance",
+            "ba-NotVerified":"Unverified",
+            "ba-Notification":"Notification",
+            "ba-OTC":"OTC",
+            "ba-OTC-content":"Better pricing and fast settlement for large trades",
+            "ba-OldSite":"Old Website",
+            "ba-Onboarding":"Onboarding",
+            "ba-PEN":"Buy Crypto with your PEN balance",
+            "ba-PLN":"Buy Crypto with your PLN balance",
+            "ba-Perpetual":"USDⓈ-M Futures",
+            "ba-PerpetualOrder":"USDⓈ-M Futures Order",
+            "ba-PerpetualWallet":"USDⓈ-M Futures",
+            "ba-Prices":"Prices",
+            "ba-Privacy":"Privacy",
+            "ba-Products":"Products",
+            "ba-Quarterly":"COIN-M Futures",
+            "ba-RUB":"Buy Crypto with your RUB balance",
+            "ba-Register":"Register",
+            "ba-Research":"Research",
+            "ba-ResponsibleTrading":"Responsible Trading",
+            "ba-Reward":"Reward Center",
+            "ba-SEK":"Buy Crypto with your SEK balance",
+            "ba-SWIFT Bank Transfer":"SWIFT Bank Transfer",
+            "ba-Service":"Service",
+            "ba-SpotGrid":"Spot Grid",
+            "ba-Staking":"Staking",
+            "ba-StrategyTrading":"Strategy Trading",
+            "ba-StrategyTrading-desc":"Trading made easy, trade like a pro",
+            "ba-SubmitARequest":"Submit a request",
+            "ba-Support":"Support",
+            "ba-SupportCenter":"Support Center",
+            "ba-TRY":"Buy Crypto with your TRY balance",
+            "ba-TWAP":"TWAP",
+            "ba-Terms":"Terms",
+            "ba-Theme":"Theme",
+            "ba-ThirdPartyPaymentvSubtitl7":"Simplex, Koinal, Latamex",
+            "ba-ThirdPartyPaymentvSubtitle":"Mercuryo, Simplex, BANXA",
+            "ba-ThirdPartyPaymentvSubtitle1":"Koinal",
+            "ba-ThirdPartyPaymentvSubtitle10":"BANXA, Simplex, BPAY, Poli, Binance Lite",
+            "ba-ThirdPartyPaymentvSubtitle11":"Simplex, Koinal",
+            "ba-ThirdPartyPaymentvSubtitle12":"BANXA",
+            "ba-ThirdPartyPaymentvSubtitle13":"Mercuryo, Koinal",
+            "ba-ThirdPartyPaymentvSubtitle14":"Latamex",
+            "ba-ThirdPartyPaymentvSubtitle15":"Mercuryo",
+            "ba-ThirdPartyPaymentvSubtitle16":"Koinal",
+            "ba-ThirdPartyPaymentvSubtitle2":"Mercuryo, Simplex, Koinal",
+            "ba-ThirdPartyPaymentvSubtitle3":"Simplex, Koinal, BANXA",
+            "ba-ThirdPartyPaymentvSubtitle4":"Satang",
+            "ba-ThirdPartyPaymentvSubtitle5":"Simplex, WazirX",
+            "ba-ThirdPartyPaymentvSubtitle6":"Simplex, Koinal, Latamex",
+            "ba-ThirdPartyPaymentvSubtitle7":"Mercuryo, Simplex, Koinal, Latamex",
+            "ba-ThirdPartyPaymentvSubtitle8":"Simplex",
+            "ba-ThirdPartyPaymentvSubtitle9":"Simplex, Banxa",
+            "ba-ThirdpaymentTitle":"Third-party Payment",
+            "ba-Trust Wallet":"Trust Wallet",
+            "ba-TrustWallet":"Trust Wallet",
+            "ba-UAH":"Buy Crypto with your UAH balance",
+            "ba-UGX":"Buy crypto with your UGX balance",
+            "ba-USDM":"USDⓈ-M",
+            "ba-USDTDelivery":"USDT Delivery",
+            "ba-USDTPerpetual":"USDT Perpetual",
+            "ba-Verified":"Verified",
+            "ba-Volume":"Quote Volume",
+            "ba-ZAR":"Buy Crypto with your ZAR balance",
+            "ba-aboutUs":"About Us",
+            "ba-activities":"Activities",
+            "ba-advanced-content":"Able to customize layout",
+            "ba-ago":"ago",
+            "ba-apiAccess":"API Access",
+            "ba-applyP2P":"P2P Merchant Application",
+            "ba-applyToList":"Listing Application",
+            "ba-assetExchange":"Blockchain and crypto asset exchange",
+            "ba-auto-invest":"Auto-Invest",
+            "ba-auto-invest-con":"Accumulate crypto on autopilot",
+            "ba-balances":"Balance",
+            "ba-battle":"Battle",
+            "ba-battle-cm":"COIN-M Battle",
+            "ba-battle-um":"USDⓈ-M Battle",
+            "ba-battlecontent":"Battle to Win, Long vs Short",
+            "ba-binance":"Binance",
+            "ba-binanceBlog":"Binance Blog",
+            "ba-binanceCoin":"BNB",
+            "ba-binanceFutrue":"Futures",
+            "ba-broker-main-title":"Broker",
+            "ba-broker-subtitle":"Trading terminal solutions",
+            "ba-busd":"Buy BUSD",
+            "ba-buy":"Buy",
+            "ba-buy-DeFi-tokens":"Buy DeFi Tokens",
+            "ba-buy-bitcoin":"Buy Bitcoin",
+            "ba-buy-new":"Buy crypto via card",
+            "ba-buyBitcion":"Buy Bitcoin",
+            "ba-buyBitcoinCash":"Buy Bitcoin Cash",
+            "ba-buyDeFi":"Buy DeFi",
+            "ba-buyEthereum":"Buy Ethereum",
+            "ba-buyLitecoin":"Buy Litecoin",
+            "ba-buyRipple":"Buy Ripple",
+            "ba-buySellHistory":"Buy Crypto History",
+            "ba-buybnb":"Buy BNB",
+            "ba-buydogecoin":"Buy Dogecoin",
+            "ba-c2c-content":"Bank transfer and 100+ options",
+            "ba-card1":"Card",
+            "ba-chooseCurrency":"Choose a currency",
+            "ba-chooseLang":"Please choose your language.",
+            "ba-chooseLanguageRegion":"Choose a language and region",
+            "ba-clearAll":"Clear All",
+            "ba-cloud":"Binance Cloud",
+            "ba-content":"Trade",
+            "ba-continue":"Continue",
+            "ba-corder":"P2P Order",
+            "ba-countdown":"Service Suspended for users from restricted countries. Now you have  {{ time }} to withdraw your funds. Please withdraw as soon, failing which your account will be locked and can’t withdraw anymore.",
+            "ba-creditCard":"Buy Crypto",
+            "ba-creditcard":"Credit Card",
+            "ba-cwallet":"P2P",
+            "ba-d":"d",
+            "ba-dashboard":"Dashboard",
+            "ba-delivery-title":"COIN-M Futures",
+            "ba-deposit":"Deposit",
+            "ba-deposit-CAD":"Deposit CAD",
+            "ba-deposit-CHF":"Deposit CHF",
+            "ba-deposit-CZK":"Deposit CAK",
+            "ba-deposit-DKK":"Deposit DKK",
+            "ba-deposit-GBP":"Deposit GBP",
+            "ba-deposit-GHS":"Deposit GHS with 0% Fee",
+            "ba-deposit-HKD":"Deposit HKD",
+            "ba-deposit-HUF":"Deposit HUF",
+            "ba-deposit-KES":"Deposit KES",
+            "ba-deposit-KZT":"Deposit KZT",
+            "ba-deposit-MXN":"Deposit MXN",
+            "ba-deposit-NGN":"Deposit NGN",
+            "ba-deposit-NOK":"Deposit NOK",
+            "ba-deposit-NZD":"Deposit NZD",
+            "ba-deposit-PLN":"Deposit PLN",
+            "ba-deposit-RUB":"Deposit RUB",
+            "ba-deposit-SEK":"Deposit SEK",
+            "ba-deposit-TRY":"Deposit TRY",
+            "ba-deposit-UAH":"Deposit UAH",
+            "ba-deposit-UGX":"Deposit UGX",
+            "ba-deposit-ZAR":"Deposit ZAR",
+            "ba-deposit-tips":"Deposit",
+            "ba-deposit-tips1":"Bank Deposit",
+            "ba-deposit-tips2":"Deposit %currency%",
+            "ba-deposit-tips3":"Card Deposit",
+            "ba-deposit-vnd":"Deposit VND via Vietcombank",
+            "ba-depositWithdrawHistory":"Deposit \u0026 Withdrawal History",
+            "ba-derivatives":"Derivatives",
+            "ba-derivatives-vip-portal":"VIP Derivatives Portal",
+            "ba-derivatives-vip-portal-con":"VIP Exclusive, Tailor-made Institutional Grade Services",
+            "ba-derivatives-vip-portal-new":"Derivatives Portal",
+            "ba-desktop":"Desktop",
+            "ba-dex":"Fast and secure decentralized digital asset exchange",
+            "ba-distributionHistory":"Distribution History",
+            "ba-download":"Download",
+            "ba-downloadapp":"Scan to Download App IOS \u0026 Android",
+            "ba-downloadoptions":"More Download Options",
+            "ba-duocoin-sidebarTitle":"Dual Investment Order",
+            "ba-earn":"Earn",
+            "ba-earnAssets":"Earn",
+            "ba-earnHistory":"Earn History",
+            "ba-earnbonus":"Earn Bonus",
+            "ba-education":"Blockchain and crypto education",
+            "ba-estimatedValue":"Estimated Value",
+            "ba-exchange-spot":"Exchange has now been updated to Spot",
+            "ba-exchangeOrders":"Spot Order",
+            "ba-exchangeWallet":"Fiat and Spot",
+            "ba-exchangeWalletMsg":"(Deposit \u0026 Withdraw)",
+            "ba-execution-solutions":"Execution Solutions",
+            "ba-exscontent":"Enterprise exchange solutions",
+            "ba-fait":"Buy Crypto",
+            "ba-faitTitle":"Cash",
+            "ba-fiat-payWith":"Pay with",
+            "ba-fiat-search":"Search",
+            "ba-fiat-under-fiat-maintenance":"Fiat service is under maintenance.",
+            "ba-finance":"Finance",
+            "ba-footer-pricepage":"Browse Crypto Prices",
+            "ba-full-creen-content":"Fullscreen",
+            "ba-full-creen-title":"Trade with larger charts in the fullscreen",
+            "ba-fut-exchange":"Spot",
+            "ba-futrue":"Futures",
+            "ba-futrue-content":"Long or short market with up to 125x leverage",
+            "ba-futureFeeH":"Funding Rate History",
+            "ba-futureOrders":"Futures Order",
+            "ba-futureRealTimeFee":"Real-Time Funding Rate",
+            "ba-futureWallet":"Futures",
+            "ba-futures":"Futures",
+            "ba-futures-content":"Fast navigation to our latest products, services and resources",
+            "ba-futures-home":"Futures Home",
+            "ba-futures-mock":"Mock Trading",
+            "ba-futures-reward-hub":"Reward Hub",
+            "ba-futures-title":"USDT-M Futures",
+            "ba-futuress-content":"Long or short the market with up to 125x leverage",
+            "ba-gateway":"Fiat Gateway Application",
+            "ba-give-us-feedback":"Give Us Feedback",
+            "ba-guide":"Guide",
+            "ba-h":"h",
+            "ba-headerbattle":"Battle",
+            "ba-historicalData":"Historical Data",
+            "ba-iUnderstand":"I understand",
+            "ba-identification":"Identification",
+            "ba-imprint":"Imprint",
+            "ba-indexPrice":"Index Price",
+            "ba-information":"Information",
+            "ba-institutional":"Institutional \u0026 VIP Services",
+            "ba-institutional-content":"White-glove approach for tailored trading solutions",
+            "ba-insuranceFundH":"Insurance Fund History",
+            "ba-inverseFutures":"COIN-M Futures",
+            "ba-inverseFuturesOrder":"COIN-M Futures Order",
+            "ba-inverseFuturesWallet":"COIN-M Futures",
+            "ba-jexfutrue":"JEX Futures",
+            "ba-joinUs":"Careers",
+            "ba-justNow":"Just now",
+            "ba-keyAccountCoverage":"Key Account Coverage",
+            "ba-labs":"Incubator for top blockchain projects",
+            "ba-language":"Language",
+            "ba-languageRegion":"Language and Region",
+            "ba-launchpad":"Token Launch Platform",
+            "ba-launchpadhistory":"Launchpad History",
+            "ba-law":"Law Enforcement Requests",
+            "ba-leaderboard":"Leaderboard",
+            "ba-learn-earn-content":"Earn free crypto through learning",
+            "ba-learn-earn-title":"Learn \u0026 Earn",
+            "ba-lending":"Savings",
+            "ba-lending-con":"Your Crypto Savings Account",
+            "ba-lending-content":"Deposit crypto and earn rewards",
+            "ba-lendingAssets":"Savings",
+            "ba-lendingHistory":"Savings History",
+            "ba-levaragedtoken":"Leveraged Tokens",
+            "ba-levaragedtoken-content":"Enjoy increased leverage without risk of liquidation",
+            "ba-live":"Binance Live",
+            "ba-live-desc":"Bringing blockchain broadcasts to you live",
+            "ba-loan-history":"Loan History",
+            "ba-logOut":"Log Out",
+            "ba-m":"mo",
+            "ba-margin":"Margin",
+            "ba-margin-content":"Increase your profits with leverage",
+            "ba-margin-title":"Margin",
+            "ba-marginOrders":"Margin Order",
+            "ba-marginWallet":"Margin",
+            "ba-min":"min",
+            "ba-moreManagement":"More",
+            "ba-nav-otc":"Convert History",
+            "ba-news":"News",
+            "ba-newyear":"$20,000 New Year Giveaway - Top prize 2,000 BUSD",
+            "ba-newyear-newuser":"$10,000 Lucky Draw, 11th - 14th Jan 2021",
+            "ba-next":"Next",
+            "ba-noLatestNotification":"No new notifications",
+            "ba-notificationDetail":"Notification Detail",
+            "ba-ocbs-content":"Purchase crypto with credit/debit cards",
+            "ba-official-verification":"Binance Verify",
+            "ba-oldWebsite":"Old Website",
+            "ba-one-trust-cookie":"Cookie Preferences",
+            "ba-openOrder":"Open Orders",
+            "ba-orderHistory":"Order History",
+            "ba-orders":"Orders",
+            "ba-otctrading":"OTC Trading",
+            "ba-others":"Orders",
+            "ba-overview":"Binance Futures Overview",
+            "ba-overviewcontent":"View our full range of crypto-derivative instruments",
+            "ba-p2pcontent":"Web Online",
+            "ba-p2ptiitlle":"P2P Crypto Exchange",
+            "ba-p2ptitle2":"P2P Crypto Exchange",
+            "ba-p2ptitle3":"Bank Transfer, Alipay, Wechat",
+            "ba-partner-wallet":"WazirX Wallet",
+            "ba-payment history":"Payment History",
+            "ba-pendingNotifications":"pending notifications",
+            "ba-perference":"Preference",
+            "ba-perpetualFutures":"USDⓈ-M Futures",
+            "ba-perpetualFutures-content":"Perpetual or Quarterly Contracts settled in USDT or BUSD",
+            "ba-pnlAnalysis":"PNL Analysis",
+            "ba-pool":"Binance Pool",
+            "ba-pool-content":"Mine more rewards by connecting to the pool",
+            "ba-poolaccouts":"Pool",
+            "ba-prev":"Prev",
+            "ba-promotion-card":"7 BUSD Cashback for your first purchase",
+            "ba-promotion-deposit":"7 BUSD Cashback for your first deposit",
+            "ba-quarterlyFutures":"COIN-M Futures",
+            "ba-quarterlyFutures-content":"Perpetual or Quarterly Contracts settled in Cryptocurrency",
+            "ba-recurring-buy-subtitle":"Schedule regular crypto purchases via card",
+            "ba-recurring-buy-title":"Recurring Buy",
+            "ba-referFriendsToEarn":"Refer Friends to Earn",
+            "ba-referral":"Referral",
+            "ba-reponsible":"Responsible Trading",
+            "ba-reponsible-content":"Learn how you could practice responsible trading with Binance Futures",
+            "ba-research":"Institutional-grade analysis and reports",
+            "ba-scanToDownload":"Scan to Download",
+            "ba-security":"Security",
+            "ba-signIn":"Log In",
+            "ba-spot":"Spot",
+            "ba-spot-title":"Spot",
+            "ba-staking":"Staking",
+            "ba-staking-con":"Easy Stake, Higher Returns",
+            "ba-staking-content":"Earn more rewards with Binance Staking",
+            "ba-status":"Status",
+            "ba-stock-token":"Stock Token",
+            "ba-stock-token-desc":"Trade Stocks with Crypto",
+            "ba-subaccount":"Sub Accounts",
+            "ba-submenu-staking":"Staking",
+            "ba-submenutitle-staking":"Staking",
+            "ba-suggest":"Suggest for you",
+            "ba-support":"Support",
+            "ba-supportSubmit":"Submit a request",
+            "ba-swap-desc":"Add liquidity and earn double",
+            "ba-swap-title":"Liquidity Farming",
+            "ba-swapfarming":"Swap Farming",
+            "ba-swapfarming-desc":"Swap to earn BNB",
+            "ba-tableMarkets":"Markets",
+            "ba-tableMarkets-content":"Trade Bitcoin \u0026 Other Cryptos",
+            "ba-task-taskCenter":"Task Center",
+            "ba-testnet":"Testnet",
+            "ba-titile1":"Fiat",
+            "ba-titile2-1":"P2P",
+            "ba-titile2-2":"Buy Crypto",
+            "ba-tour":"Tour",
+            "ba-tournament":"Tournament",
+            "ba-trade":"Trade",
+            "ba-tradeHistory":"Trade History",
+            "ba-tradeRules":"Trading Rules",
+            "ba-tradingData":"Trading Data",
+            "ba-transactionhistory":"Transaction History",
+            "ba-trbinance":"TRBINANCE.COM",
+            "ba-trustWallet":"Binance's official crypto wallet",
+            "ba-tutorial":"Tutorial",
+            "ba-usdtFutures":"USDⓈ-M Futures",
+            "ba-usdtFuturesOrder":"USDⓈ-M Futures Order",
+            "ba-usdtFuturesWallet":"USDⓈ-M Futures",
+            "ba-vanillaoptions":"Vanilla Options",
+            "ba-viewAll":"View All",
+            "ba-viewMore":"View more",
+            "ba-viewmore":"View More",
+            "ba-voptions":"Vanilla Options",
+            "ba-voptionscontent":"Buy and Sell European-style Vanilla Options.",
+            "ba-wallet":"Wallet",
+            "ba-wallet-card":"Card",
+            "ba-wallet-overview":"Overview",
+            "ba-walletDepositSubtitl3":"Epay",
+            "ba-walletDepositSubtitle":"Advcash, Payeer",
+            "ba-walletDepositSubtitle1":"Papara,  Advcash",
+            "ba-walletDepositSubtitle2":"Advcash",
+            "ba-walletDepositSubtitle3":"Epay",
+            "ba-walletDepositSubtitle4":"Deposit NGN with Bank Transfer",
+            "ba-walletDepositSubtitle5":"Deposit ZAR with Bank Transfer",
+            "ba-walletDepositSubtitle6":"Advcash, Payeer, Epay",
+            "ba-walletDepositSubtitle7":"Etana, Epay",
+            "ba-walletDepositSubtitle8":"Etana",
+            "ba-walletDepositSubtitle9":"Mobile Money",
+            "ba-win-dwon":"Download Desktop Clients \u003e",
+            "ba-withdraw":"Withdraw",
+            "ba-y":"Y",
+            "binance-base-Volume":"Quote Volume",
+            "binancecloud":"Enterprise exchange solutions",
+            "binancecould":"Binance Cloud",
+            "bn-pop-cancel":"Cancel",
+            "bn-pop-close":"Close",
+            "bn-pop-content1":"Please complete New Identity Verification before 2021-12-01 and receive a reward. If you do not pass verification by this date, your account will be restricted to: withdrawal only.",
+            "bn-pop-content2":"Please provide your source of wealth declaration. We will not be able to provide services before you submit the source of wealth declaration.",
+            "bn-pop-content3":"Your Source of Wealth Declaration did not meet our review requirements. Services have been suspended. Please resubmit your declaration.",
+            "bn-pop-continue":"Continue",
+            "bn-pop-linkContent":"New Identity Verification",
+            "bn-pop-startNow":"Start Now",
+            "bn-pop-title-1":"Verification Required",
+            "bn-pop-title-2":"Source of Wealth Declaration Required",
+            "bn-pop-title-3":"Source of Wealth Declaration Failed",
+            "bn-pop-tryAgain":"Try Again",
+            "bn-pop-verifyNow":"Verify Now",
+            "bottom-keyclient":"Key Client Privileges",
+            "com_account_guide_kyc":"You are required to complete Intermediate Verification to access Binance services.",
+            "com_account_guide_kyc_Voucher":"Plus, verify now and get a 500 BUSD Savings Trial Fund Voucher.",
+            "com_account_guide_learn_more":"Learn more",
+            "com_account_guide_verify":"Verify",
+            "common-th-24hChange":"24h Change",
+            "common-th-account":"Account",
+            "common-th-lastPrice":"Last Price",
+            "common-th-marketCap":"Market Cap",
+            "common-th-name":"Coin",
+            "exchange-check":"Success! Please scroll down to check.",
+            "exchange-inmail-markAllread":"Mark all as read",
+            "exchange-wallet-fee":"Fee:",
+            "exchange-wallet-matchedNetworksTip":"该地址自动匹配网络 ## , 建议您选择",
+            "exchange-wallet-minDeposit":"Deposit amount must be greater than \u003cstrong\u003e##\u003c/strong\u003e",
+            "exchangeWallet":"Spot Wallet",
+            "fait-titile":"Fiat",
+            "landing-data-title":"Historical Market Data",
+            "na-assetPR":"Access",
+            "pos-type-ahead":"Redeem earlier",
+            "pos-type-mature":"Redeemed",
+            "pos-type-transferred":"Transfer to Flexible",
+            "share-poster-commonEarn":"Earn coins together",
+            "share-poster-download":"download",
+            "share-poster-future":"contract",
+            "share-poster-high":"Up to",
+            "share-poster-highReferral":"Rebate up to",
+            "share-poster-inviteFrends":"invite friends",
+            "share-poster-lieEarn":"Lying down to make money",
+            "share-poster-mining":"Mining pool",
+            "share-poster-notDream":"Not a dream",
+            "share-poster-oneBillion":"Achieve a small goal and earn him 100 million",
+            "share-poster-share":"Share",
+            "share-poster-slectSize":"Choose size",
+            "share-poster-spot":"spot",
+            "share-poster-trade":"transaction",
+            "tradeGuide-startTrading":"Start trading now",
+            "uk-do-it":"Do it.",
+            "uk-navi":"You are required to complete self certification to access several Binance products."
+         }
+      },
+      "i18n":{
+         "support-center":{
+            "begin-request":"Begin request",
+            "lawenforcement-guideline-entrance":"Binance Law Enforcement Guidelines.",
+            "lawenforcement-guideline-subTitle":"These guidelines are provided to law enforcement agents or governmental officials who are looking to obtain information from Binance for the purpose of gathering evidence in connection with, or in aid of an ongoing criminal investigation. Please note that these guidelines may be amended from time to time without notice. These guidelines are not intended for private parties, whether engaged in private investigations or civil litigations.",
+            "lawenforcement-guideline-subTitle-about":"About Binance",
+            "lawenforcement-guideline-subTitle-about-content":"Binance refers to an ecosystem comprising Binance websites (whose domain names include but are not limited to http://www.binance.com) , mobile applications, clients, applets and other applications that are developed to offer Binance Services, and includes independently-operated platforms, websites and clients within the ecosystem (e.g. Binance’s Open Platform, Binance Launchpad, Binance Labs, Binance Charity, Binance DEX, Binance X, JEX, Trust Wallet, and fiat gateways). Binance is continuously growing and may offer even more services in the future.",
+            "lawenforcement-guideline-subTitle-accessing":"Accessing the Binance Law Enforcement and Enquiries Request System (LERS)",
+            "lawenforcement-guideline-subTitle-accessing-content":"In order to access LERS, the law enforcement agent or governmental official must first request access by visiting {{url}}.",
+            "lawenforcement-guideline-subTitle-accessing-content0":"A request for access is generally reviewed and approved within 3 business days, after which law enforcement agents may submit a request for information and upload the relevant supporting documents. Please note that requests which are not accompanied by copies of official supporting documents will not be processed.",
+            "lawenforcement-guideline-subTitle-form":"Form of Request",
+            "lawenforcement-guideline-subTitle-form-content":"Authorized law enforcement may send a request for information through LERS following a request of access has been approved. In order to expedite the process, law enforcement agents are reminded to clearly set out the legal basis for each request for information or assistance. A summary of the background of the facts, investigation and any information regarding the Binance users and transaction details will also help us expedite the request.",
+            "lawenforcement-guideline-subTitle-notice":"Notice of Requests",
+            "lawenforcement-guideline-subTitle-notice-content":"Unless specified in any Court Order or Police Warrant and on valid legal basis, we may notify the relevant user of the request before disclosure of any personal data.",
+            "lawenforcement-guideline-subTitle-preservation":"Preservation Order Requests",
+            "lawenforcement-guideline-subTitle-preservation-content":"Following the receipt of a preservation order request relating to a criminal investigation, Binance will take steps to preserve records in connection for 90 days. Should the period for preservation needs to be extended, an additional request must be submitted through LERS.",
+            "lawenforcement-guideline-subTitle-requirement":"Requirement for Court Orders and Warrants",
+            "lawenforcement-guideline-subTitle-requirement-content":"Binance collects, uses and store user records in accordance with the Binance Terms of Use and Privacy Policy, as amended from time to time. This includes information collected from users for the purpose of opening a Binance account, providing services to the users, regulatory compliance (such as mandatory record keeping, Anti-Money Laundering (AML), Know-Your-Client (KYC) obligations). For full details, please visit {{url}}.",
+            "lawenforcement-guideline-subTitle-requirement-content0":"In order for Binance to provide information relating to our users in aid of an ongoing criminal investigation, we will require a valid court order from a competent jurisdiction or police orders/warrants. Please note that in certain cases, we may require more information to ensure that the release of information is lawful.",
+            "lawenforcement-guideline-title":"Binance Law Enforcement Guidelines",
+            "lawenforcement-landing-consent-content":"Welcome to the Binance Law Enforcement Request System (LERS). Government and law enforcement agencies can use this system to submit information requests. Binance will review each case and cooperate on a case-by-case basis to disclose information as legally required, in accordance with our Terms of Use and applicable laws.",
+            "lawenforcement-landing-disclaimer":"I hereby declare that I am a law enforcement agent or government official authorized to make law enforcement requests or enquiries to Binance and such access is requested in an official capacity. I understand that if I make an unauthorized request, I may be subject to prosecution. For further information, please see the",
+            "lawenforcement-landing-disclaimer-preview":"To access LERS, you must be a law enforcement agent or governmental official authorized to 1) gather evidence in connection with an investigation or 2) make a formal law enforcement request.",
+            "lawenforcement-landing-subTitle":"For Government and Law Enforcement Agencies only:",
+            "lawenforcement-landing-title":"Binance Law Enforcement Request System",
+            "please-agree-disclaimer-error":"Please agree to the disclaimer",
+            "support-center-accountFunSeo":"Find answers on Binance account functions, ID verification, 2FA, Email etc.",
+            "support-center-all":"All",
+            "support-center-allTopics":"All Topics",
+            "support-center-announcement":"Announcement",
+            "support-center-apiSeo":"For senior crypto traders who use Binance API to facilitate trading process",
+            "support-center-binance":"Binance",
+            "support-center-changeEmailAddress":"Change Email Address",
+            "support-center-contentNotFound":"This article currently does not support your language. Auto-translator is recommended for English.",
+            "support-center-cryptoDepositNotCredited":"Crypto Deposit Not Credited",
+            "support-center-cryptoSeo":"Understand Binance Futures, Options and other derivatives in this module",
+            "support-center-dayAgo":"{1} day ago",
+            "support-center-daysAgo":"{2} days ago",
+            "support-center-depositNoArrived":"Deposit hasn't arrived",
+            "support-center-depositNotCreditAssetRecovery":"Deposit Not Credit Asset Recovery",
+            "support-center-depositSeo":"Find here answer for issues during deposit and withdrawal to Binance wallet",
+            "support-center-depositTagMemoRecovery":"Deposit Missing or Wrong Tag/memo Asset Recovery",
+            "support-center-faq":"FAQ",
+            "support-center-faqSeo":"If you have any issues when you use Binance services, find the answers here",
+            "support-center-finacneSeo":"Increase the value of idle assets with Binance Savings, Staking, Loans etc.",
+            "support-center-goHome":"Back to Support Center",
+            "support-center-helpCenter":"Help Center",
+            "support-center-hourAgo":"{1} hour ago",
+            "support-center-hoursAgo":"{2} hours ago",
+            "support-center-kycFailureAppeal":"KYC Failure Appeal",
+            "support-center-latest":"Latest Articles",
+            "support-center-limitChar":"The query is limited to 50 characters.",
+            "support-center-limitKeywords":"The query is limited to 5 words.",
+            "support-center-minuteAgo":"{1} minute ago",
+            "support-center-minutesAgo":"{14} minutes ago",
+            "support-center-moreQuestion":"Have more questions?",
+            "support-center-noMoreData":"No more data",
+            "support-center-noSearchResTips":"Sorry, we can’t come up with anything for your search.",
+            "support-center-notFound":"This page you are looking for cannot be found.",
+            "support-center-oederByRelevance":"Relevance",
+            "support-center-orderByDate":"Date",
+            "support-center-pageTitle":"Support Center",
+            "support-center-playlistNotFound":"This page does not support your language. Recommend the English version for you.",
+            "support-center-popular-title":"Popular articles",
+            "support-center-popularTopics":"Popular Topics",
+            "support-center-readMore":"Read More",
+            "support-center-related":"Related Articles",
+            "support-center-resetGoogleAuthenticator":"Reset Google Authenticator",
+            "support-center-resetPassword":"Reset Password",
+            "support-center-resetPhoneSecurityVerification":"Reset Phone Security Verification",
+            "support-center-search":"Search",
+            "support-center-searchFAQTitle":"Search our FAQ",
+            "support-center-searchHere":"Search here",
+            "support-center-searchPlaceholder":"Search help articles",
+            "support-center-searchPlaceholderAnnouncement":"Search announcements",
+            "support-center-searchResult":"Search Result",
+            "support-center-searchTitle":"How can we help you?",
+            "support-center-searchTitleAnnouncement":"What are you looking for?",
+            "support-center-securitySeo":"Consult security tips here and learn to protect assets in Binance wallet",
+            "support-center-selfService":"Self-Service",
+            "support-center-serviceSeo":"Find here Binance service TOU and user agreements for other products",
+            "support-center-sortByDate":"Sort by date",
+            "support-center-sortByTitle":"Sort by",
+            "support-center-sortbyrelevance":"Sort by relevance",
+            "support-center-spotSeo":"Find here info on Binance Spot, Margin and OTC trading rules \u0026 procedures",
+            "support-center-submitRequest":"submit a request",
+            "support-center-supportCenter":"Support Center",
+            "support-center-top":"Top Articles",
+            "support-center-totalResNum":"{Numbers} Results In Total",
+            "support-center-unlockAccount":"Unlock Account",
+            "support-center-viewMore":"View more",
+            "zendesksupport-search-placeholder":"Search on Binance ..."
+         }
+      },
+      "disableSeo":false,
+      "finalPathWithoutLng":"/support/announcement/c-48"
+   },
+   "pageData":{
+      "redux":{
+         "global":{
+            "origin":"https://www.binance.com",
+            "url":"https://www.binance.com/en/support/announcement/c-48",
+            "path":"/en/support/announcement/c-48",
+            "host":"https://www.binance.com",
+            "dir":"ltr",
+            "metaData":{
+               "seoTitle":"New Cryptocurrency Listing",
+               "seoTitleSuffix":"Binance Support",
+               "keywords":"Binance Support",
+               "description":"Binance cryptocurrency exchange - We operate the worlds biggest bitcoin exchange and altcoin crypto exchange in the world by volume",
+               "ogImage":"https://public.bnbstatic.com/images/common/ogImage.jpg",
+               "url":"https://www.binance.com/en/support/announcement/c-48"
+            },
+            "region":"",
+            "isHybrid":false,
+            "withChat":true,
+            "withHeader":true,
+            "withFooter":true,
+            "withCompliance":true,
+            "noticeInfo":null,
+            "pageLayout":1248,
+            "isMobile":false
+         },
+         "cookies":{
+            "theme":"light",
+            "userPreferredCurrency":"USD_USD"
+         },
+         "products":{
+            "loading":true,
+            "productMap":{
+               
+            },
+            "hotProduct":[
+               
+            ],
+            "updateTime":1648413876971
+         },
+         "ssrStore":{
+            
+         },
+         "userCenter":{
+            "userInfo":{
+               
+            },
+            "languageMap":{
+               "en":"English",
+               "zh-CN":"简体中文",
+               "zh-TC":"繁體中文",
+               "zh-TW":"繁體中文 (台灣)",
+               "ru":"Русский",
+               "es":"Español (Internacional)",
+               "es-LA":"Español (Latinoamérica)",
+               "fr":"Français",
+               "vi":"Tiếng Việt",
+               "tr":"Türkçe",
+               "it":"Italiano",
+               "pl":"Polski",
+               "id":"Bahasa Indonesia",
+               "uk-UA":"Українська",
+               "ph":"Filipino",
+               "ja":"日本語",
+               "ar":"العربية",
+               "en-AU":"English (Australia)",
+               "pt-BR":"Português (Brasil)",
+               "en-IN":"English (India)",
+               "en-NG":"English (Nigeria)",
+               "ro":"Română",
+               "bg":"български",
+               "cs":"Čeština",
+               "lv":"latviešu valoda",
+               "bn":"বাংলা",
+               "sv":"Svenska",
+               "pt-PT":"Português (Portugal)",
+               "es-MX":"Español (México)",
+               "el":"Ελληνικά",
+               "sk":"Slovenčina",
+               "sl":"Slovenščina",
+               "ur":"اردو",
+               "es-AR":"Español (Argentina)",
+               "fr-AF":"Français (Afrique)",
+               "en-GB":"English (UK)"
+            },
+            "fiatCurrencyInfo":[
+               
+            ],
+            "userPreferredCurrency":{
+               
+            },
+            "fiatCurrency":{
+               "USD":{
+                  "pair":"USD_USD",
+                  "rate":1,
+                  "symbol":"$"
+               }
+            },
+            "loginStatus":{
+               "isLoading":true
+            },
+            "p2pMergeStatusInfo":{
+               "status":true,
+               "finishTime":1629993600000,
+               "isLedgerUser":true,
+               "isNewUser":false,
+               "loading":true
+            }
+         },
+         "persistSetting":{
+            "favorites":[
+               
+            ],
+            "isHideSmallBalance":false,
+            "maskedBalance":false
+         }
+      }
+   },
+   "ssr":true,
+   "runtimeConfig":{
+      "COMMIT_ID":"c6d15086e726ba156867b67a1766611fb7212cef",
+      "STATIC_HOST":"https://bin.bnbstatic.com",
+      "STATIC_HOST_PRIVATE":"http://bin.bnbstatic.com.s3.ap-northeast-1.amazonaws.com",
+      "STATIC_HOST_PUBLIC":"https://bin.bnbstatic.com",
+      "ALB_HOST":"http://bin.bnbstatic.com.s3.ap-northeast-1.amazonaws.com",
+      "INBOX_STREAM_HOST_TEMPLATE":"wss://bstream.{{rootDomain}}:9443",
+      "STATIC_HOST_SHARE":"https://public.bnbstatic.com",
+      "ACCELERATE_DEFAULT_DOMAIN":"api.yshyqxx.com",
+      "ACCELERATE_ENBLED_SITES":"www.binancezh.com,www.binancezh.net,accounts.binancezh.com,accounts.binancezh.net,www.binancezh.pro,accounts.binancezh.pro,www.binancezh.cc,accounts.binancezh.cc,www.binancezh.co,accounts.binancezh.co,www.binancezh.io,accounts.binancezh.io,www.binancezh.be,accounts.binancezh.be,www.binancezh.ch,accounts.binancezh.ch,www.binancezh.sh,accounts.binancezh.sh,www.binancezh.in,accounts.binancezh.in,www.binancezh.ac,accounts.binancezh.ac,www.binancezh.top,accounts.binancezh.top,www.bnbzh.net,accounts.bnbzh.net,www.bnbzh.cc,accounts.bnbzh.cc,www.bnbzh.co,accounts.bnbzh.co,www.binancezh.jp,accounts.binancezh.jp,www.binancezh.cz,accounts.binancezh.cz,www.binancezh.biz,accounts.binancezh.biz,www.bnbzh.ac,accounts.bnbzh.ac,www.bnbzh.cz,accounts.bnbzh.cz,www.bnbzh.in,accounts.bnbzh.in",
+      "ACCELERATE_AVAILABLE_DOMAIN":"api.yshyqxx.com,api.hanqiweb.cloud",
+      "MARKET_STREAM_HOST_TEMPLATE":"wss://nbstream.{{rootDomain}}",
+      "SITE_HOST":"https://www.binance.com",
+      "SITE_HOST_TEMPLATE":"https://www.{{rootDomain}}",
+      "CHAT_STREAM_HOST":"wss://haodesk.binance.im",
+      "SENSORS_SERVER_HOST":"https://api.saasexch.com/bapi/fe/usd/sa?project=binance",
+      "I18N_BASE_PRIVATE":"http://bin.bnbstatic.com.s3.ap-northeast-1.amazonaws.com/api/i18n/-/web/cms",
+      "I18N_BASE_PUBLIC":"https://bin.bnbstatic.com/api/i18n/-/web/cms",
+      "GA_TRACKING_ID":"UA-162512367-1",
+      "THEMIS_ADDRESS":"https://api.saasexch.com/bapi/themis/api/",
+      "THEMIS_BINANCE_APP_WEB_AUTH":"NjEzNzQzMzE1ODpZSDdNV0YycFprVHFrSEViMDBveDBRNmN2UGF1T2tFTw==",
+      "THEMIS_MANUAL_SYNC_STRATEGY":"59",
+      "COMMIT_HEAD":"c6d15086e726ba156867b67a1766611fb7212cef",
+      "ASSETS_HOST":"https://bin.bnbstatic.com"
+   }
+}

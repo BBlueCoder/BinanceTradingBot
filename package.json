@@ -1,0 +1,16 @@
+{
+  "name": "trading_bot",
+  "version": "1.0.0",
+  "description": "A trading bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abdellah",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "mongodb": "^4.4.1",
+    "node-html-parser": "^5.3.3"
+  }
+}
