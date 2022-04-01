@@ -1,6 +1,18 @@
 const globVars = require('../global_const_vars')
 const {MongoClient} = require('mongodb')
 
+// document for trade history
+// {
+//		date: timestamp,
+//		symbol : 'currency symbol',	
+//		action : 'SELL or BUYY',
+//		type: 'LIMIT or Market',
+//		price: price of currency,
+//		quantity : currency quantity,
+//		status: trade status active,canceled,executed,
+//		boughtCurrency : currency of assest USDT or BUSD 
+//	}
+
 class DBController{
 
 	constructor(dbName){
@@ -20,18 +32,27 @@ class DBController{
 		this.client.close()
 	}
 
-	async addDocument(document){
-		this.db = this.client.db(this.dbName)
-		await this.db.collection('test').insertOne(document)
-		console.log('document added')
+	async addDocument(collectionName,document){
+		await this.connect()
+		await this.db.collection(collectionName).insertOne(document)
+		this.client.close()
 	}
 
-	async getDocuments(collectionName){
+	async getAllDocuments(collectionName){
 		await this.connect()
 		const result = await this.db.collection(collectionName).find({}).toArray()
 		this.client.close()
-		console.log(result)
+		return result
 	}
+
+	async getDocuments(collectionName,query){
+		await this.connect()
+		const result = await this.db.collection(collectionName).find(query).toArray()
+		this.client.close()
+		return result
+	}
+
+	async updateDocument(collectionName,update,query)
 
 
 }
