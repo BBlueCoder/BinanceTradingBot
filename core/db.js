@@ -1,5 +1,6 @@
 const globVars = require('../global_const_vars')
 const {MongoClient} = require('mongodb')
+const ObjectID = require('mongodb').ObjectID
 
 // document for trade history
 // {
@@ -52,7 +53,12 @@ class DBController{
 		return result
 	}
 
-	async updateDocument(collectionName,update,query)
+	async updateDocument(collectionName,update,id){
+		await this.connect()
+		const result = await this.db.collection(collectionName).updateOne({_id: ObjectID(id)},{$set:update})
+		this.client.close()
+		return result
+	}
 
 
 }
