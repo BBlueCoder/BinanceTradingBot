@@ -3,6 +3,8 @@ const globVars = require('../global_const_vars')
 const axios = require('axios')
 const parser = require('node-html-parser')
 const crypto = require('crypto')
+const nodemailer = require('nodemailer')
+const DBController = require('./db')
 
 class ClientBin {
 
@@ -25,10 +27,10 @@ class ClientBin {
 		})
 	}
 
-	prvGetCall(path,query,signature){
+	prvGetCall(method,path,query,signature){
 		return new Promise(async (resolve,reject)=>{
 			const config = {
-				method : 'GET',
+				method : method,
 				url:path+'?'+query+'&signature='+signature,
 				headers: {
 					'X-MBX-APIKEY':globVars.apiKey
@@ -43,6 +45,53 @@ class ClientBin {
 				reject(new Error(err))
 			}
 		})
+	}
+
+	buildStringFromObject(obj){
+		return Object.entries(obj).map(([k,v])=>`${k}:${v}`).join('\n')
+	}
+
+	//Trade functions 
+	async newOrder(symbol,side,type,quantity,price){
+
+		const ts = await this.time()
+		let query = `symbol=${symbol}&side=${side}&type=${type}`
+
+		if(type = 'LIMIT')
+			query = `${query}&timeInForce=GTC`
+		if(quantity)
+			query = `${query}&quantity=${quantity}`
+		if(price)
+			query = `${query}&price=${price}`
+
+		query = `${query}&timestamp=${ts}&recvWindow=${8000}`
+		const signature = this.signature(query)
+		const result = await this.prvGetCall('POST',`${globVars.baseURL}/api/v3/order`,query,signature)
+
+		const dateObj = new Date(ts)
+
+		const doc = {
+			date : dateObj.toLocaleString(),
+			symbol : symbol,
+			action :side,
+			type : type,
+			status : result.data.status,
+			orderId : result.data.orderId
+		}
+
+		if(result.data.fills.length == 0){
+			doc.price = result.data.price
+			doc.quantity = result.data.origQty
+		}else{
+			doc.price = result.data.fills[0].price
+			doc.quantity = result.data.fills[0].qty
+		}
+
+		const db = new DBController('trading_bot')
+		db.addDocument('trade_history',doc)
+
+		this.sendMail('I placed a new order boss!',`I placed a ${side} ${type} order for ${symbol} : \n${this.buildStringFromObject(doc)}`)
+
 	}
 
 	extractBinanceData(source){
@@ -136,12 +185,23 @@ class ClientBin {
 		return diffDays
 	}
 
+	extractAnnoucementCurrencyNameAndSymbol(announcement){
+		const currencyName = announcement.match(/(?<=List).*(?=\()/gm)
+		const currencySymbol = announcement.match(/(?<=\().*(?=\))/gm)
+		return {name : currencyName[0].toString().trim(), symbol : currencySymbol[0].toString()}
+	}
+
 	getAnnouncementNewListingCurrency(){
 		return new Promise((resolve,reject)=>{
 			this.getAnnouncement()
 			.then(announcement => {
 				const newListingList = announcement.routeProps.b723.catalogs.find(c => c.catalogName === 'New Cryptocurrency Listing').articles
-				.filter(a=> a.title.includes('Binance Will List') && calculeTimeDiff(a.releaseDate)<2)
+				.filter(a=> a.title.includes('Binance Will List') /*&& calculeTimeDiff(a.releaseDate)<2*/)
+				newListingList.forEach(a => {
+					const info = this.extractAnnoucementCurrencyNameAndSymbol(a.title)
+					a.name = info.name
+					a.symbol = info.symbol
+				})
 				resolve(newListingList)
 			})
 			.catch(err => {
@@ -155,13 +215,38 @@ class ClientBin {
 			const ts = await this.time()
 			const query = `timestamp=${ts}&recvWindow=${8000}`
 			const signature = this.signature(query)
-			this.prvGetCall(`${globVars.baseURL}/api/v3/account`,query,signature)
+			this.prvGetCall('GET',`${globVars.baseURL}/api/v3/account`,query,signature)
 			.then(resp => {
 				resolve(resp.data)
 			})
 			.catch(err => {
 				reject(err)
 			})
+		})
+	}
+
+	sendMail(subject,text){
+		const transpoter = nodemailer.createTransport({
+			service : 'gmail',
+			auth :{
+				user:'trading.blue.bot@gmail.com',
+				pass : 'Raisse14'
+			}
+		})
+
+		const mailOpts = {
+			from : 'trading.blue.bot@gmail.com',
+			to: 'aball.boy.99@gmail.com',
+			subject : subject,
+			text : text
+		}
+
+		transpoter.sendMail(mailOpts,(err,info)=>{
+			if(err){
+				console.log(err)
+			}else{
+				console.log('Email sent successfully')
+			}
 		})
 	}
 
@@ -175,6 +260,8 @@ class ClientBin {
 		})
 		
 	}
+
+
 }
 
 module.exports = ClientBin

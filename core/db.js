@@ -4,14 +4,14 @@ const ObjectID = require('mongodb').ObjectID
 
 // document for trade history
 // {
-//		date: timestamp,
+//		date: date,
 //		symbol : 'currency symbol',	
 //		action : 'SELL or BUYY',
 //		type: 'LIMIT or Market',
 //		price: price of currency,
 //		quantity : currency quantity,
-//		status: trade status active,canceled,executed,
-//		boughtCurrency : currency of assest USDT or BUSD 
+//		status: trade status,
+//		orderId : order id
 //	}
 
 class DBController{

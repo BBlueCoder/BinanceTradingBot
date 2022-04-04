@@ -11,6 +11,7 @@
   "dependencies": {
     "axios": "^0.26.1",
     "mongodb": "^4.4.1",
-    "node-html-parser": "^5.3.3"
+    "node-html-parser": "^5.3.3",
+    "nodemailer": "^6.7.3"
   }
 }
