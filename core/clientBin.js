@@ -88,10 +88,14 @@ class ClientBin {
 		}
 
 		const db = new DBController('trading_bot')
-		db.addDocument('trade_history',doc)
+		await db.addDocument('trade_history',doc)
 
 		this.sendMail('I placed a new order boss!',`I placed a ${side} ${type} order for ${symbol} : \n${this.buildStringFromObject(doc)}`)
+	}
 
+	async currencyPriceTicker(symbol){
+		const result = await this.pubGetCall(`${globVars.baseURL}/api/v3/ticker/price?symbol=${symbol}`)
+		return result.data
 	}
 
 	extractBinanceData(source){

@@ -46,7 +46,7 @@ class DBController{
 		return result
 	}
 
-	async getDocuments(collectionName,query){
+	async getDocument(collectionName,query){
 		await this.connect()
 		const result = await this.db.collection(collectionName).find(query).toArray()
 		this.client.close()
