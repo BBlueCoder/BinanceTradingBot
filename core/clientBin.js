@@ -29,6 +29,7 @@ class ClientBin {
 
 	prvGetCall(method,path,query,signature){
 		return new Promise(async (resolve,reject)=>{
+			console.log(query)
 			const config = {
 				method : method,
 				url:path+'?'+query+'&signature='+signature,
@@ -57,7 +58,7 @@ class ClientBin {
 		const ts = await this.time()
 		let query = `symbol=${symbol}&side=${side}&type=${type}`
 
-		if(type = 'LIMIT')
+		if(type == 'LIMIT')
 			query = `${query}&timeInForce=GTC`
 		if(quantity)
 			query = `${query}&quantity=${quantity}`
@@ -67,6 +68,8 @@ class ClientBin {
 		query = `${query}&timestamp=${ts}&recvWindow=${8000}`
 		const signature = this.signature(query)
 		const result = await this.prvGetCall('POST',`${globVars.baseURL}/api/v3/order`,query,signature)
+
+		console.log(result)
 
 		const dateObj = new Date(ts)
 
