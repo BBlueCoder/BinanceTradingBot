@@ -21,7 +21,7 @@ class ClientBin {
 			.then(resp => {
 				resolve(resp)
 			}).catch(err =>{
-				console.log(""+err)
+				console.log(err)
 				reject(new Error(err))
 			})
 		})
@@ -87,8 +87,8 @@ class ClientBin {
 			doc.quantity = result.data.fills[0].qty
 		}
 
-		const db = new DBController('trading_bot')
-		await db.addDocument('trade_history',doc)
+		const db = new DBController(globVars.DBName)
+		await db.addDocument(globVars.tradeHistoryCollection,doc)
 
 		this.sendMail('I placed a new order boss!',`I placed a ${side} ${type} order for ${symbol} : \n${this.buildStringFromObject(doc)}`)
 	}
