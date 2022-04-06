@@ -29,7 +29,6 @@ class ClientBin {
 
 	prvGetCall(method,path,query,signature){
 		return new Promise(async (resolve,reject)=>{
-			console.log(query)
 			const config = {
 				method : method,
 				url:path+'?'+query+'&signature='+signature,
@@ -69,8 +68,6 @@ class ClientBin {
 		const signature = this.signature(query)
 		const result = await this.prvGetCall('POST',`${globVars.baseURL}/api/v3/order`,query,signature)
 
-		console.log(result)
-
 		const dateObj = new Date(ts)
 
 		const doc = {
@@ -93,7 +90,7 @@ class ClientBin {
 		const db = new DBController(globVars.DBName)
 		await db.addDocument(globVars.tradeHistoryCollection,doc)
 
-		this.sendMail('I placed a new order boss!',`I placed a ${side} ${type} order for ${symbol} : \n${this.buildStringFromObject(doc)}`)
+		//this.sendMail('I placed a new order boss!',`I placed a ${side} ${type} order for ${symbol} : \n${this.buildStringFromObject(doc)}`)
 	}
 
 	async currencyPriceTicker(symbol){

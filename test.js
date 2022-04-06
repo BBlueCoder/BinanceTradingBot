@@ -20,15 +20,18 @@ async function track(num){
 const delay = ms => new Promise(res => setTimeout(res, ms));
 
 async function main(){
-	test()
+	test(1)
+	test(2)
 }
 
 main()
 
-async function test(){
-	console.log("start")
+async function test(n){
+	console.log("start"+n)
 	await delay(2000)
 	console.log("end")
-	setTimeout(test,500)
+	if(n == 1){
+		setTimeout(test,500,1)
+	}
 }
 

@@ -36,7 +36,11 @@ client.currencyPriceTicker('GMTBUSD').then(r => console.log(r)).catch(console.er
 trackNewCurrency(newCurrency)*/
 
 const client = new ClientBin()
-client.getAccountInfo().then(res => console.log(res)).catch(console.error)
+const db = new DBController(globVars.DBName)
+tradeCurrency(11078)
+
+/*client.newOrder('XRPUSDT','SELL','MARKET',200)*/
+/*client.getAccountInfo().then(res => console.log(res)).catch(console.error)*/
 
 //checkNewCurrency()
 
@@ -44,11 +48,7 @@ client.getAccountInfo().then(res => console.log(res)).catch(console.error)
 async function checkNewCurrency(){
 	/*	setInterval(async ()=> {*/
 		try{
-			const client = new ClientBin()
-			const list = await client.getAnnouncementNewListingCurrency()
-
-			const db = new DBController(globVars.DBName)
-			
+			const list = await client.getAnnouncementNewListingCurrency()	
 			for(i = 0;i<list.length;i++){
 				//check if currency was added to db or not
 				const dbDoc = await db.getDocument(globVars.newCurrencyTracksCollection,{name : list[i].name,symbol : list[i].symbol})
@@ -68,25 +68,22 @@ async function checkNewCurrency(){
 					}
 				}
 			}
-
 		}catch(err){
 			console.log('errr = '+err)
-/*			const client = new ClientBin()
-client.sendMail('Hey Boss i got a problem',`I got an error on checkNewCurrency() method you have to check it \n${err}`)*/
-}
+			const client = new ClientBin()
+			client.sendMail('Hey Boss i got a problem',`I got an error on checkNewCurrency() method you have to check it \n${err}`)
+		}
 /*	},1000)*/
 }
 
 async function trackNewCurrency(newCurrency){
 	try{
-		const client = new ClientBin()
-		const db = new DBController(globVars.DBName)
 		//check if currency is on market
-/*		const marketNewCurrencyList = await client.getMarketNewListing()
+		const marketNewCurrencyList = await client.getMarketNewListing()
 
-		const currencyInMarket = marketNewCurrencyList.find(c => c.fullName == newCurrency.name || c.name == newCurrency.symbol)*/
+		const currencyInMarket = marketNewCurrencyList.find(c => c.fullName == newCurrency.name || c.name == newCurrency.symbol)
 
-		if(true){
+		if(currencyInMarket){
 			//check in market if currency is available on USDT or BUSD 
 			const market = await client.getMarket()
 			const data = market.pageData.redux.products.productMap
@@ -178,6 +175,21 @@ async function trackNewCurrency(newCurrency){
 		console.log(err)
 		/*const client = new ClientBin()
 		client.sendMail('Hey Boss i got a problem',`I got an error on trackNewCurrency() method you have to check it \n${err}`)*/
+	}
+}
+
+async function tradeCurrency(orderId){
+	try{
+		const doc = await db.getDocument(globVars.tradeHistoryCollection,{orderId : orderId})
+		const boughtPrice = parseFloat(doc[0].price)
+		const priceTicker = await client.currencyPriceTicker(doc[0].symbol)
+		const currentPrice = parseFloat(priceTicker.price)
+		let changePercent = ((currentPrice-boughtPrice)/boughtPrice)*100
+		changePercent = changePercent.toFixed(2)
+
+		
+	}catch(err){
+		console.log(err)
 	}
 }
 
