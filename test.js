@@ -28,10 +28,28 @@ main()
 
 async function test(n){
 	console.log("start"+n)
-	await delay(2000)
-	console.log("end")
-	if(n == 1){
-		setTimeout(test,500,1)
+	await delay(2000*n)
+	console.log("end"+n)
+	
+	setTimeout(test,500,n)
+	
+}
+
+function testswitch(){
+	const num = 35
+
+	switch(num){
+		case num < 10 :
+			console.log("5-10")
+			break
+		case num > 10:
+			console.log("10-25")
+			break
+		case num > 25 :
+			console.log("25-40")
+			break
+		default:
+			console.log("default")
 	}
 }
 

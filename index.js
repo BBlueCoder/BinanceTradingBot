@@ -184,13 +184,43 @@ async function tradeCurrency(orderId){
 		const boughtPrice = parseFloat(doc[0].price)
 		const priceTicker = await client.currencyPriceTicker(doc[0].symbol)
 		const currentPrice = parseFloat(priceTicker.price)
-		let changePercent = ((currentPrice-boughtPrice)/boughtPrice)*100
-		changePercent = changePercent.toFixed(2)
+		const change = ((currentPrice-boughtPrice)/boughtPrice)*100
+		const currentChangePercent = changePercent.toFixed(2)
 
-		
+		const changeDoc = await db.getDocument(globVars.tradeChangeCollection,{orderId : orderId})
+		if(changeDoc.length == 0){
+			if(currentChangePercent>0){
+				const newChangeDoc = {change : currentChangePercent,orderId : orderId}
+				await db.addDocument(globVars.tradeChangeCollection,newChangeDoc)
+			}
+		}else{
+			let maxChange = changeDoc[0].change
+			if(maxChange < currentChangePercent){
+				const update = {change : currentChangePercent}
+				await db.updateDocument(globVars.tradeChangeCollection,update,changeDoc[0]._id.toString())
+				maxChange = currentChangePercent
+			}
+			const changeDiff = maxChange - currentChangePercent
+			/*const shouldSell = */
+		}
+
 	}catch(err){
 		console.log(err)
 	}
+}
+
+function sellOrNot(maxChange,changeDiff){
+	if(maxChange>9 && maxChange < 21 && changeDiff > 2)
+		return true
+	
+	if(maxChange>20 && maxChange < 31 && changeDiff > 4)
+		return true
+
+	if(maxChange>30 && maxChange < 41 && changeDiff > 6)
+		return true
+
+	if(maxChange>40 && maxChange < 51 && changeDiff > 8)
+		return true
 }
 
 async function test(){

@@ -10,4 +10,5 @@ exports.localDB = 'mongodb://127.0.0.1:27017'
 exports.DBName = 'trading_bot'
 exports.tradeHistoryCollection = 'trade_history'
 exports.newCurrencyTracksCollection = 'newCurrencyTrack'
+exports.tradeChangeCollection = 'change_trade'
 exports.newCurrencyQtyToBuy = 50
