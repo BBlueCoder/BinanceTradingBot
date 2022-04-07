@@ -198,6 +198,7 @@ async function tradeCurrency(orderId){
 				const newChangeDoc = {change : currentChangePercent,orderId : orderId}
 				await db.addDocument(globVars.tradeChangeCollection,newChangeDoc)
 			}
+			setTimeout(tradeCurrency,1000,orderId)
 		}else{
 			let maxChange = changeDoc[0].change
 			if(maxChange < currentChangePercent){
@@ -211,6 +212,9 @@ async function tradeCurrency(orderId){
 				const accountInfo = await client.getAccountInfo()
 				const balance = accountInfo.balances.find(b => b.asset == doc.symbol.substring(0,doc.symbol - 4)).free
 				const floatBalance = (parseFloat(balance).toFixed(2) - 0.01).toFixed(2)
+				await client.newOrder(doc.symbol,'SELL','MARKET',floatBalance)
+			}else{
+				setTimeout(tradeCurrency,1000,orderId)
 			}
 		}
 
