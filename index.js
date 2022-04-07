@@ -37,7 +37,12 @@ trackNewCurrency(newCurrency)*/
 
 const client = new ClientBin()
 const db = new DBController(globVars.DBName)
-tradeCurrency(11078)
+client.getAccountInfo().then(res => {
+	const symbol = "GMTBUSD"
+	const balance = res.balances.find(b => b.asset == symbol.substring(0,symbol.length-4)).free
+	const floatBalance = (parseFloat(balance).toFixed(2) - 0.01).toFixed(2)
+	console.log(floatBalance)
+})
 
 /*client.newOrder('XRPUSDT','SELL','MARKET',200)*/
 /*client.getAccountInfo().then(res => console.log(res)).catch(console.error)*/
@@ -201,7 +206,12 @@ async function tradeCurrency(orderId){
 				maxChange = currentChangePercent
 			}
 			const changeDiff = maxChange - currentChangePercent
-			/*const shouldSell = */
+			const shouldSell = sellOrNot(maxChange,changeDiff)
+			if(shouldSell){
+				const accountInfo = await client.getAccountInfo()
+				const balance = accountInfo.balances.find(b => b.asset == doc.symbol.substring(0,doc.symbol - 4)).free
+				const floatBalance = (parseFloat(balance).toFixed(2) - 0.01).toFixed(2)
+			}
 		}
 
 	}catch(err){
@@ -219,8 +229,19 @@ function sellOrNot(maxChange,changeDiff){
 	if(maxChange>30 && maxChange < 41 && changeDiff > 6)
 		return true
 
-	if(maxChange>40 && maxChange < 51 && changeDiff > 8)
+	if(maxChange>40 && maxChange < 61 && changeDiff > 8)
 		return true
+
+	if(maxChange>60 && maxChange < 81 && changeDiff > 10)
+		return true
+
+	if(maxChange>80 && maxChange < 101 && changeDiff > 15)
+		return true
+
+	if(maxChange> 100 && changeDiff > 18)
+		return true
+
+	return false
 }
 
 async function test(){

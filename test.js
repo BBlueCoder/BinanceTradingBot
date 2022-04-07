@@ -27,12 +27,9 @@ async function main(){
 main()
 
 async function test(n){
-	console.log("start"+n)
-	await delay(2000*n)
-	console.log("end"+n)
-	
-	setTimeout(test,500,n)
-	
+
+	const t = "BSWBUSD"
+	console.log(t.substring(""))
 }
 
 function testswitch(){
