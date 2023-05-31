@@ -39,10 +39,10 @@ class ClientBin {
 
 			try{
 				const resp = await axios(config)
-				resolve(resp)
+				resolve(resp.data)
 			}catch(err){
-				console.log('Error : '+JSON.stringify(err.response.data))
-				reject(new Error(err))
+				console.log('Error prv call: '+JSON.stringify(err.response.data))
+				reject(new Error(err.response.data))
 			}
 		})
 	}
@@ -52,7 +52,7 @@ class ClientBin {
 	}
 
 	//Trade functions 
-	async newOrder(symbol,side,type,quantity,price){
+	async newOrder(symbol,side,type,quantity,motif,stopLoss,price){
 
 		const ts = await this.time()
 		let query = `symbol=${symbol}&side=${side}&type=${type}`
@@ -66,9 +66,9 @@ class ClientBin {
 
 		query = `${query}&timestamp=${ts}&recvWindow=${8000}`
 		const signature = this.signature(query)
-		const result = await this.prvGetCall('POST',`${globVars.baseURL}/api/v3/order`,query,signature)
+		return await this.prvGetCall('POST',`${globVars.baseURL}/api/v3/order`,query,signature)
 
-		const dateObj = new Date(ts)
+		/*const dateObj = new Date(ts)
 
 		const doc = {
 			date : dateObj.toLocaleString(),
@@ -76,25 +76,43 @@ class ClientBin {
 			action :side,
 			type : type,
 			status : result.data.status,
-			orderId : result.data.orderId
+			orderId : result.data.orderId,
+			cut : 0,
+			quantity : quantity
 		}
 
-		if(result.data.fills.length == 0){
-			doc.price = result.data.price
-			doc.quantity = result.data.origQty
+		if(motif){
+			doc.motif = motif
+		}
+
+		if(stopLoss)
+			doc.stopLoss = stopLoss
+
+		if(side = "BUY"){
+			doc.balance = 0
 		}else{
-			doc.price = result.data.fills[0].price
-			doc.quantity = result.data.fills[0].qty
+			doc.balance = parseFloat(result.data.fills.reduce((p,c)=>parseFloat(p.price)+parseFloat(c.price)))
 		}
 
 		const db = new DBController(globVars.DBName)
-		await db.addDocument(globVars.tradeHistoryCollection,doc)
+		const checkIfDocIsAlreadySaved = await db.getDocument(globVars.tradeCoinsCollection,{symbol:symbol})
+		if(checkIfDocIsAlreadySaved.length == 0 ){
+			await db.addDocument(globVars.tradeCoinsCollection,doc)
+		}else{
+			await db.updateDocument(globVars.tradeCoinsCollection,doc,checkIfDocIsAlreadySaved[0]._id.toString())
+		}*/
+		
 
 		//this.sendMail('I placed a new order boss!',`I placed a ${side} ${type} order for ${symbol} : \n${this.buildStringFromObject(doc)}`)
 	}
 
 	async currencyPriceTicker(symbol){
 		const result = await this.pubGetCall(`${globVars.baseURL}/api/v3/ticker/price?symbol=${symbol}`)
+		return result.data // {symbol: 'GMTBUSD', price: '3.33000000'}
+	}
+
+	async getKlines(symbol,interval){
+		const result = await this.pubGetCall(`${globVars.baseURL}/api/v3/klines?symbol=${symbol}&interval=${interval}&limit=203`)
 		return result.data
 	}
 
@@ -214,19 +232,11 @@ class ClientBin {
 		})		
 	}
 
-	getAccountInfo(){
-		return new Promise(async (resolve,reject)=>{
-			const ts = await this.time()
-			const query = `timestamp=${ts}&recvWindow=${8000}`
-			const signature = this.signature(query)
-			this.prvGetCall('GET',`${globVars.baseURL}/api/v3/account`,query,signature)
-			.then(resp => {
-				resolve(resp.data)
-			})
-			.catch(err => {
-				reject(err)
-			})
-		})
+	async getAccountInfo(){
+		const ts = await this.time()
+		const query = `timestamp=${ts}&recvWindow=${8000}`
+		const signature = this.signature(query)
+		return await this.prvGetCall('GET',`${globVars.baseURL}/api/v3/account`,query,signature)
 	}
 
 	sendMail(subject,text){

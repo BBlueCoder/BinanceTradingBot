@@ -37,11 +37,21 @@ trackNewCurrency(newCurrency)*/
 
 const client = new ClientBin()
 const db = new DBController(globVars.DBName)
-client.getAccountInfo().then(res => {
+/*client.getAccountInfo().then(res => {
 	const symbol = "GMTBUSD"
 	const balance = res.balances.find(b => b.asset == symbol.substring(0,symbol.length-4)).free
 	const floatBalance = (parseFloat(balance).toFixed(2) - 0.01).toFixed(2)
 	console.log(floatBalance)
+})*/
+
+client.newOrder("BTCBUSD","BUY","MARKET",1).then(()=>{
+	console.log("bought")
+}).catch(err => {
+	console.log(err)
+	const error = JSON.parse(err.toString().substring(err.toString().indexOf('{'),err.toString().indexOf('}')+1))
+	if(error.code == -2010){
+		console.log('balance insufficient')
+	}
 })
 
 /*client.newOrder('XRPUSDT','SELL','MARKET',200)*/

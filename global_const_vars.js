@@ -8,7 +8,6 @@ exports.apiKey = 'r6SPwm7OhhKQc6m74N0K8kNY7jq8LJPqvfjPw9NB1JpFxjcK5UUScK39Opo7H1
 exports.localDB = 'mongodb://127.0.0.1:27017'
 
 exports.DBName = 'trading_bot'
-exports.tradeHistoryCollection = 'trade_history'
-exports.newCurrencyTracksCollection = 'newCurrencyTrack'
-exports.tradeChangeCollection = 'change_trade'
-exports.newCurrencyQtyToBuy = 50
+exports.tradingColl = "trading"
+exports.tradesBuyColl = "trades_buy"
+exports.tradesSellColl = "trades_sell"

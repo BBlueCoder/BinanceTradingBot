@@ -1,0 +1,42 @@
+[
+   {
+      "symbol":"GMTBUSD",
+      "price":3.25598,
+      "quantity":30.7,
+      "motif":"PB",
+      "baseAssetBalance":99.987751,
+      "date":"Thu May 05 2022 11:26:46 GMT+0000 (GMT)",
+      "orderId":250198333,
+      "stopLoss":3.2014918793480422
+   },
+   {
+      "symbol":"GMTBUSD",
+      "price":3.24066,
+      "quantity":31.2,
+      "motif":"PB",
+      "baseAssetBalance":101.286432,
+      "date":"Thu May 05 2022 14:59:54 GMT+0000 (GMT)",
+      "orderId":250962245,
+      "stopLoss":3.170683652151201
+   },
+   {
+      "symbol":"GMTBUSD",
+      "price":3.20992,
+      "quantity":31.4,
+      "motif":"PB",
+      "baseAssetBalance":100.80027999999999,
+      "date":"Thu May 05 2022 15:04:52 GMT+0000 (GMT)",
+      "orderId":250985535,
+      "stopLoss":3.1591517413445738
+   },
+   {
+      "symbol":"GMTBUSD",
+      "price":3.15333,
+      "quantity":31.9,
+      "motif":"PB",
+      "baseAssetBalance":100.642586,
+      "date":"Thu May 05 2022 15:08:48 GMT+0000 (GMT)",
+      "orderId":251006160,
+      "stopLoss":3.1398877420801603
+   }
+]

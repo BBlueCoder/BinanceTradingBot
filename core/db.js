@@ -2,17 +2,34 @@ const globVars = require('../global_const_vars')
 const {MongoClient} = require('mongodb')
 const ObjectID = require('mongodb').ObjectID
 
-// document for trade history
-// {
-//		date: date,
-//		symbol : 'currency symbol',	
-//		action : 'SELL or BUYY',
-//		type: 'LIMIT or Market',
-//		price: price of currency,
-//		quantity : currency quantity,
-//		status: trade status,
-//		orderId : order id
-//	}
+/*DB
+@Collection trading
+	Document structure :
+		symbol
+		baseAssetBalance
+		boughtPrice
+		stopLoss
+		orderId
+		status // TRADING,SELL,BUY,STOP
+		motif  // GC,PB
+@Collection trades_buy
+	Document structure :
+		symbol
+		price
+		quantity
+		motif
+		baseAssetBalance
+		orderId
+		stopLoss
+		date
+@Collection trades_sell
+	Document structure :
+		symbol
+		price
+		quantity
+		baseAssetBalance
+		orderId
+		date*/
 
 class DBController{
 
@@ -24,7 +41,6 @@ class DBController{
 		this.client = new MongoClient(`${globVars.localDB}`)
 		await this.client.connect()
 		this.db = this.client.db(this.dbName)
-		console.log('Connected successfully to db')
 	}
 
 	async addCollection(collectionName){
@@ -53,9 +69,9 @@ class DBController{
 		return result
 	}
 
-	async updateDocument(collectionName,update,id){
+	async updateDocument(collectionName,update,query){
 		await this.connect()
-		const result = await this.db.collection(collectionName).updateOne({_id: ObjectID(id)},{$set:update})
+		const result = await this.db.collection(collectionName).updateOne(query,{$set:update})
 		this.client.close()
 		return result
 	}
